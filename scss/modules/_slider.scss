@@ -1,0 +1,163 @@
+/* ==|=======================================================================
+   Module/Slider (compatible with Coda Slider 3.0)
+   ========================================================================== */
+
+.coda-slider-wrapper {
+
+	.coda-slider { 
+		width:100%;
+
+		.panel{
+			width:100%; 
+
+			.panel-wrapper { 
+				text-align: center;			
+			}
+		}	
+	}	
+
+	.coda-nav {
+
+		.current { 
+			background: #0090FF 
+		}
+
+		a{
+			background: #000; 
+			color: #fff;
+			margin-right:1px;
+			padding:3px 6px; 				
+		}
+
+		a:hover{
+			background:#000;
+			color:#fff;
+			text-shadow:none; 
+		}
+	}
+
+	.coda-nav-left, .coda-nav-right {
+		a {	
+			background: #000; 
+			color: #fff; 
+			padding: 5px; 
+			width: 100px;
+		}
+	}
+
+	.coda-nav-left-arrow{
+		width:25px;
+		height:25px;
+		background: url(../img/arrow.png) no-repeat top left;
+		margin-top:50px;
+		
+		&:hover{
+			background: url(../img/arrow.png) no-repeat bottom left;
+		}
+
+		&:active{
+			margin-top:55px;
+		}
+		a{
+			width: 0;
+		    height: 0;
+		    background: none; 
+		    margin-top:0;
+		}
+	}
+
+	.coda-nav-right-arrow {
+		width:25px;
+		height:25px;
+		background: url(../img/arrow.png) no-repeat top right;
+		margin-top:50px;
+
+		&:hover{
+			background: url(../img/arrow.png) no-repeat bottom left;
+		}
+
+		&:active{
+			margin-top:55px;
+		}
+	}		
+
+	.loading { 
+		height:100%;
+		padding:20px; 
+		text-align:center;
+	}
+	
+}
+.arrows .coda-slider {
+	margin:0 10px;
+}		
+
+
+/**********************************************************************
+*
+* Don't change anything below here unless you know what you're doing 
+*
+***********************************************************************/
+
+.coda-slider-wrapper{
+	clear:both; 
+	overflow:auto;
+
+	.coda-slider {
+		float:left;
+		overflow:hidden;
+		position:relative;
+		
+		.panel-container {
+			position:relative;
+
+			.panel {
+				display:block;
+				float:left;
+			}
+		}
+	}
+
+	.coda-nav {
+
+		ul { 
+			clear:both;
+			display:block;
+			margin:auto;
+			overflow:hidden;
+
+			li { 
+				display:inline; 
+
+				a{
+					display:block; 
+					float:left;
+					text-decoration:none;
+				}
+			}
+		}
+	}
+	
+	.coda-nav-left-arrow, .coda-nav-right-arrow {
+		cursor:pointer;
+		float:left; 
+
+		a { 
+			display: block; 
+		}
+	}
+
+	.coda-nav-left, .coda-nav-right {
+		float:left; 
+		a { 
+			display: block; 
+			text-align: center; 
+			text-decoration: none;
+		}
+	} 
+
+	.coda-nav-left, .coda-nav-left-arrow { 
+			clear:both 
+		}
+
+}

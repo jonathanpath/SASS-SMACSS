@@ -1,0 +1,57 @@
+/* ==|=======================================================================
+   Module/Accordion (based on Bootstrap)
+   ========================================================================== */
+
+.accordion {
+	margin-bottom: 1em;
+	height: auto !important;
+	
+	.accordion-group {
+		margin-bottom: .8em;
+		@include border-radius(4px);
+		background: rgba(#fff, .8);
+		@include box-shadow(0, 1px, 1px, rgba(#000, .1));
+		
+		.collapse {
+			overflow-x: visible;
+		}
+		
+		.accordion-heading {
+			border-bottom: 0;
+		  
+			a.accordion-toggle {
+				display: block;
+				padding: 8px 15px;
+				color: lighten($color1, 20%);
+				background: rgba(#000, .01);
+				border: solid 1px #e3e3e3;
+				border-bottom: 2px solid $color1;
+				@include border-radius(4px 4px 0 0);
+				
+				&:hover {
+					text-decoration: none;
+					background: rgba(#000, .02);
+				}
+				
+				&.color2 {
+					color: $color2;
+					border-bottom-color: $color2;
+				}
+				&.color3 {
+					color: $color3;
+					border-bottom-color: $color3;
+				}
+			}
+		}
+		
+		.accordion-inner {
+			padding: 9px 15px;
+			border: solid 1px #eee;
+			border-top: none;
+			
+			p {
+				margin: 1em;
+			}
+		}
+	}
+}

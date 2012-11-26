@@ -1,0 +1,34 @@
+/* ==|=======================================================================
+   Module/Nav
+   ========================================================================== */
+
+#primary-nav {
+	display: inline-block;
+	
+	ul {
+		padding-left: 0;
+		margin: 0;
+		display: inline-block;
+		
+		li {
+			display: inline-block;
+			padding-right: .1em;
+			a {
+				padding: .7em 1em;
+				@include transition();
+				display: block;
+				text-transform: uppercase;
+				color: #fff;
+				
+				&:hover {
+					background: darken($color1, 5%);
+				}
+			}
+			&.current-menu-item a {
+				font-weight: bold;
+				color: #fff;
+			}
+		}
+	} /* ul */
+	
+} /* #primary-nav */
