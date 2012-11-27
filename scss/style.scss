@@ -3,7 +3,7 @@
  * Inspired by SMACSS http://smacss.com
  * Author: @jonathanpath
  *
- * https://github.com/jonathanpath/SMACSS-SASS-starter
+ * https://github.com/jonathanpath/SASS-SMACSS
  * 
  */
 
@@ -27,6 +27,7 @@
 @import "modules/icons";
 @import "modules/animations";
 @import "modules/tagcloud";
+@import "modules/dropdown";
 
 /* Non-Modular */
 @import "non-modular/organisation";

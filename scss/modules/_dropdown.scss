@@ -1,0 +1,55 @@
+/* ==|=======================================================================
+   Module/Dropdown Menu (based on Bootstrap)
+   ========================================================================== */
+
+.m-dropdown-menu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	float: left;
+	min-width: 160px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	list-style: none;
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	@include border-radius(6px);
+	@include box-shadow(0, 5px, 10px, rgba(0, 0, 0, 0.2));
+	@include background-clip(padding-box);
+    text-align: left;
+      
+	&.pull-right {
+	  right: 0;
+	  left: auto;
+	  
+	  & > .dropdown-menu {
+	    right: 0;
+	    left: auto;
+	  }
+	}
+	
+	.divider {
+		height: 1px;
+		margin: 9px 1px;
+		overflow: hidden;
+		background-color: #e5e5e5;
+		border-bottom: 1px solid #ffffff;
+	}
+	
+	a {
+		display: block;
+		padding: .4em 2em;
+		clear: both;
+		color: #333;
+		white-space: nowrap;
+		
+		&:hover {
+			background-color: #eee;
+			text-decoration: none;
+		}
+	}
+	
+}

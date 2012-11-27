@@ -121,6 +121,14 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color2', endColorstr='$color2',GradientType=0 ); /* IE6-9 */
 }
 
+@mixin gradient-linear-hover($color1, $color2) {
+	@include gradient-linear($color1, $color2);
+	
+	&:hover {
+		@include gradient-linear(darken($color1, 5%), darken($color2, 5%));
+	}
+}
+
 @mixin scale($size) {
 	-webkit-transform:scale($size);
 	-moz-transform:scale($size);
@@ -133,6 +141,12 @@
 	-webkit-box-sizing: $type;
 	-moz-box-sizing: $type;
 	box-sizing: $type;  
+}
+
+@mixin background-clip($type) {
+	-webkit-background-clip: $type;
+	-moz-background-clip: $type;
+	background-clip: $type;  
 }
 
 @mixin unselectable() {

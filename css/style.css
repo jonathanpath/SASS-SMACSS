@@ -3,7 +3,7 @@
  * Inspired by SMACSS http://smacss.com
  * Author: @jonathanpath
  *
- * https://github.com/jonathanpath/SMACSS-SASS-starter
+ * https://github.com/jonathanpath/SASS-SMACSS
  * 
  */
 /* Base */
@@ -1894,6 +1894,69 @@ input[type="text"]:focus, textarea:focus {
   -o-transition-duration: 0.2s;
   -o-transition-timing-function: ease-out;
   -o-transition-delay: 0s;
+}
+
+/* ==|=======================================================================
+   Module/Dropdown Menu (based on Bootstrap)
+   ========================================================================== */
+/* line 5, ../scss/modules/_dropdown.scss */
+.m-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  text-align: left;
+}
+/* line 24, ../scss/modules/_dropdown.scss */
+.m-dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+/* line 28, ../scss/modules/_dropdown.scss */
+.m-dropdown-menu.pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+/* line 34, ../scss/modules/_dropdown.scss */
+.m-dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 1px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #ffffff;
+}
+/* line 42, ../scss/modules/_dropdown.scss */
+.m-dropdown-menu a {
+  display: block;
+  padding: .4em 2em;
+  clear: both;
+  color: #333;
+  white-space: nowrap;
+}
+/* line 49, ../scss/modules/_dropdown.scss */
+.m-dropdown-menu a:hover {
+  background-color: #eee;
+  text-decoration: none;
 }
 
 /* Non-Modular */
