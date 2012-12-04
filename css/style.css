@@ -1106,6 +1106,43 @@ input[type="text"]:focus, textarea:focus {
   color: #c4c4c4;
 }
 
+/* Fonts */
+/* ==|=======================================================================
+   Fonts/Titles
+   ========================================================================== */
+/* h2 of module */
+/* line 6, ../scss/fonts/_titles.scss */
+.mod-title {
+  color: #7b9dac;
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin: .5em 0;
+}
+/* line 14, ../scss/fonts/_titles.scss */
+.mod-title > span {
+  position: relative;
+  position: inline-block;
+}
+/* line 18, ../scss/fonts/_titles.scss */
+.mod-title > span:after, .mod-title > span:before {
+  content: "";
+  position: absolute;
+  background: url("../img/title-mod.png");
+  width: 1000px;
+  height: .7em;
+  top: .2em;
+}
+/* line 26, ../scss/fonts/_titles.scss */
+.mod-title > span:after {
+  right: -1020px;
+}
+/* line 29, ../scss/fonts/_titles.scss */
+.mod-title > span:before {
+  left: -1020px;
+}
+
 /* Layout */
 /* ==|=======================================================================
    Layout/Header

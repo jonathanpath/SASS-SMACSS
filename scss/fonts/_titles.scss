@@ -1,0 +1,33 @@
+/* ==|=======================================================================
+   Fonts/Titles
+   ========================================================================== */
+
+/* h2 of module */
+.mod-title {
+	color: #7b9dac;
+	font-size: 5em;
+	text-align: center;
+	text-transform: uppercase;
+	overflow: hidden;
+	margin: .5em 0;
+
+	> span {
+		position: relative;
+		position: inline-block;
+		
+		&:after, &:before {
+			content: "";
+			position: absolute;
+			background: url('../img/title-mod.png');
+			width: 1000px;
+			height: .7em;
+			top: .2em;
+		}
+		&:after {
+			right: -1020px;
+		}
+		&:before {
+			left: -1020px;
+		}
+	}
+}
