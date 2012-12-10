@@ -70,6 +70,15 @@
 		@include box-sizing(border-box);
 	}
 	
+	/* Options */
+	&.active, &.active:hover {
+		border-color: #83C8E6;
+		background: #ddedf4;
+		color: #83C8E6;
+		@include box-shadow(0, 0, 0, transparent);
+		text-shadow: none;
+	}
+	
 }
 
 
