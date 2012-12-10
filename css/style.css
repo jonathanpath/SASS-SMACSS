@@ -17,7 +17,7 @@
 /*
  * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 25, ../scss/base/_normalize.scss */
+/* line 25, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 article,
 aside,
 details,
@@ -35,7 +35,7 @@ summary {
 /*
  * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 35, ../scss/base/_normalize.scss */
+/* line 35, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 audio,
 canvas,
 video {
@@ -48,7 +48,7 @@ video {
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 46, ../scss/base/_normalize.scss */
+/* line 46, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -59,7 +59,7 @@ audio:not([controls]) {
  * and Safari 4.
  * Known issue: no IE 6 support.
  */
-/* line 57, ../scss/base/_normalize.scss */
+/* line 57, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -73,7 +73,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 72, ../scss/base/_normalize.scss */
+/* line 72, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 html {
   font-size: 100%;
   /* 1 */
@@ -87,7 +87,7 @@ html {
  * Addresses `font-family` inconsistency between `textarea` and other form
  * elements.
  */
-/* line 87, ../scss/base/_normalize.scss */
+/* line 87, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 html,
 button,
 input,
@@ -99,7 +99,7 @@ textarea {
 /*
  * Addresses margins handled incorrectly in IE 6/7.
  */
-/* line 95, ../scss/base/_normalize.scss */
+/* line 95, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 body {
   margin: 0;
 }
@@ -110,7 +110,7 @@ body {
 /*
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
-/* line 107, ../scss/base/_normalize.scss */
+/* line 107, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -118,7 +118,7 @@ a:focus {
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-/* line 116, ../scss/base/_normalize.scss */
+/* line 116, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -132,37 +132,37 @@ a:hover {
  * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
  * and Chrome.
  */
-/* line 130, ../scss/base/_normalize.scss */
+/* line 130, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 135, ../scss/base/_normalize.scss */
+/* line 135, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
 
-/* line 140, ../scss/base/_normalize.scss */
+/* line 140, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-/* line 145, ../scss/base/_normalize.scss */
+/* line 145, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 h4 {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-/* line 150, ../scss/base/_normalize.scss */
+/* line 150, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0;
 }
 
-/* line 155, ../scss/base/_normalize.scss */
+/* line 155, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0;
@@ -171,7 +171,7 @@ h6 {
 /*
  * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
  */
-/* line 164, ../scss/base/_normalize.scss */
+/* line 164, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -179,13 +179,13 @@ abbr[title] {
 /*
  * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
-/* line 173, ../scss/base/_normalize.scss */
+/* line 173, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 177, ../scss/base/_normalize.scss */
+/* line 177, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 blockquote {
   margin: 1em 40px;
 }
@@ -193,7 +193,7 @@ blockquote {
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
-/* line 185, ../scss/base/_normalize.scss */
+/* line 185, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -201,7 +201,7 @@ dfn {
 /*
  * Addresses styling not present in IE 6/7/8/9.
  */
-/* line 193, ../scss/base/_normalize.scss */
+/* line 193, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -210,7 +210,7 @@ mark {
 /*
  * Addresses margins set differently in IE 6/7.
  */
-/* line 203, ../scss/base/_normalize.scss */
+/* line 203, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 p,
 pre {
   margin: 1em 0;
@@ -219,7 +219,7 @@ pre {
 /*
  * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-/* line 214, ../scss/base/_normalize.scss */
+/* line 214, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 code,
 kbd,
 pre,
@@ -232,7 +232,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers.
  */
-/* line 224, ../scss/base/_normalize.scss */
+/* line 224, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -242,7 +242,7 @@ pre {
 /*
  * Addresses CSS quotes not supported in IE 6/7.
  */
-/* line 234, ../scss/base/_normalize.scss */
+/* line 234, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 q {
   quotes: none;
 }
@@ -250,7 +250,7 @@ q {
 /*
  * Addresses `quotes` property not supported in Safari 4.
  */
-/* line 243, ../scss/base/_normalize.scss */
+/* line 243, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 q:before,
 q:after {
   content: '';
@@ -260,7 +260,7 @@ q:after {
 /*
  * Addresses inconsistent and variable font size in all browsers.
  */
-/* line 252, ../scss/base/_normalize.scss */
+/* line 252, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -268,7 +268,7 @@ small {
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 261, ../scss/base/_normalize.scss */
+/* line 261, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -277,12 +277,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 268, ../scss/base/_normalize.scss */
+/* line 268, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 272, ../scss/base/_normalize.scss */
+/* line 272, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -293,7 +293,7 @@ sub {
 /*
  * Addresses margins set differently in IE 6/7.
  */
-/* line 287, ../scss/base/_normalize.scss */
+/* line 287, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 dl,
 menu,
 ol,
@@ -301,7 +301,7 @@ ul {
   margin: 1em 0;
 }
 
-/* line 291, ../scss/base/_normalize.scss */
+/* line 291, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 dd {
   margin: 0 0 0 40px;
 }
@@ -309,7 +309,7 @@ dd {
 /*
  * Addresses paddings set differently in IE 6/7.
  */
-/* line 301, ../scss/base/_normalize.scss */
+/* line 301, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 menu,
 ol,
 ul {
@@ -319,7 +319,7 @@ ul {
 /*
  * Corrects list images handled incorrectly in IE 7.
  */
-/* line 310, ../scss/base/_normalize.scss */
+/* line 310, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -333,7 +333,7 @@ nav ol {
  * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improves image quality when scaled in IE 7.
  */
-/* line 324, ../scss/base/_normalize.scss */
+/* line 324, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 img {
   border: 0;
   /* 1 */
@@ -344,7 +344,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE 9.
  */
-/* line 333, ../scss/base/_normalize.scss */
+/* line 333, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -355,7 +355,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
-/* line 345, ../scss/base/_normalize.scss */
+/* line 345, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -366,7 +366,7 @@ figure {
 /*
  * Corrects margin displayed oddly in IE 6/7.
  */
-/* line 357, ../scss/base/_normalize.scss */
+/* line 357, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 form {
   margin: 0;
 }
@@ -374,7 +374,7 @@ form {
 /*
  * Define consistent border, margin, and padding.
  */
-/* line 365, ../scss/base/_normalize.scss */
+/* line 365, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -386,7 +386,7 @@ fieldset {
  * 2. Corrects text not wrapping in Firefox 3.
  * 3. Corrects alignment displayed oddly in IE 6/7.
  */
-/* line 377, ../scss/base/_normalize.scss */
+/* line 377, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -403,7 +403,7 @@ legend {
  *    and Chrome.
  * 3. Improves appearance and consistency in all browsers.
  */
-/* line 394, ../scss/base/_normalize.scss */
+/* line 394, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 button,
 input,
 select,
@@ -422,7 +422,7 @@ textarea {
  * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 407, ../scss/base/_normalize.scss */
+/* line 407, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -437,7 +437,7 @@ input {
  * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 424, ../scss/base/_normalize.scss */
+/* line 424, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -453,7 +453,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 435, ../scss/base/_normalize.scss */
+/* line 435, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -465,7 +465,7 @@ input[disabled] {
  * 3. Removes excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 447, ../scss/base/_normalize.scss */
+/* line 447, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -483,7 +483,7 @@ input[type="radio"] {
  * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 460, ../scss/base/_normalize.scss */
+/* line 460, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -497,7 +497,7 @@ input[type="search"] {
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 473, ../scss/base/_normalize.scss */
+/* line 473, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -506,7 +506,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Removes inner padding and border in Firefox 3+.
  */
-/* line 482, ../scss/base/_normalize.scss */
+/* line 482, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -517,7 +517,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE 6/7/8/9.
  * 2. Improves readability and alignment in all browsers.
  */
-/* line 492, ../scss/base/_normalize.scss */
+/* line 492, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -531,7 +531,7 @@ textarea {
 /*
  * Remove most spacing between table cells.
  */
-/* line 505, ../scss/base/_normalize.scss */
+/* line 505, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -550,7 +550,7 @@ table {
 /* ==|=======================================================================
    Base/Site Settings Load
    ========================================================================== */
-/* line 5, ../scss/base/_site-settings-load.scss */
+/* line 5, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_site-settings-load.scss */
 body {
   font: 300 "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -559,38 +559,38 @@ body {
   padding: 3em 0 5em;
 }
 
-/* line 13, ../scss/base/_site-settings-load.scss */
+/* line 13, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_site-settings-load.scss */
 a {
   color: #df2e30;
   text-decoration: none;
 }
 
-/* line 18, ../scss/base/_site-settings-load.scss */
+/* line 18, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_site-settings-load.scss */
 h2 {
   font: 300 3.5em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: .6em 0 0;
 }
 
-/* line 22, ../scss/base/_site-settings-load.scss */
+/* line 22, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_site-settings-load.scss */
 h3 {
   margin-top: 2em;
 }
 
-/* line 27, ../scss/base/_site-settings-load.scss */
+/* line 27, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_site-settings-load.scss */
 ::-moz-selection {
   background: #df2e30;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 32, ../scss/base/_site-settings-load.scss */
+/* line 32, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_site-settings-load.scss */
 ::selection {
   background: #df2e30;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 38, ../scss/base/_site-settings-load.scss */
+/* line 38, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_site-settings-load.scss */
 hr {
   display: block;
   height: 1px;
@@ -600,7 +600,7 @@ hr {
   padding: 0;
 }
 
-/* line 47, ../scss/base/_site-settings-load.scss */
+/* line 47, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_site-settings-load.scss */
 input[type="text"], textarea {
   font-size: 1em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -617,11 +617,11 @@ input[type="text"], textarea {
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 57, ../scss/base/_site-settings-load.scss */
+/* line 57, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_site-settings-load.scss */
 input[type="text"]:hover, textarea:hover {
   border-color: #a5a5a5;
 }
-/* line 61, ../scss/base/_site-settings-load.scss */
+/* line 61, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_site-settings-load.scss */
 input[type="text"]:focus, textarea:focus {
   border-color: #999;
 }
@@ -630,29 +630,29 @@ input[type="text"]:focus, textarea:focus {
    Helpers
    ========================================================================== */
 /* Clear */
-/* line 6, ../scss/base/_helpers.scss */
+/* line 6, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 7, ../scss/base/_helpers.scss */
+/* line 7, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 8, ../scss/base/_helpers.scss */
+/* line 8, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .clearfix {
   zoom: 1;
 }
 
-/* line 9, ../scss/base/_helpers.scss */
+/* line 9, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .cln {
   clear: none !important;
 }
 
 /* For image replacement */
-/* line 13, ../scss/base/_helpers.scss */
+/* line 13, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .ir {
   display: block;
   border: 0;
@@ -664,20 +664,20 @@ input[type="text"]:focus, textarea:focus {
   direction: ltr;
 }
 
-/* line 14, ../scss/base/_helpers.scss */
+/* line 14, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .ir br {
   display: none;
 }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 17, ../scss/base/_helpers.scss */
+/* line 17, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 20, ../scss/base/_helpers.scss */
+/* line 20, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -690,7 +690,7 @@ input[type="text"]:focus, textarea:focus {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 23, ../scss/base/_helpers.scss */
+/* line 23, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -701,29 +701,29 @@ input[type="text"]:focus, textarea:focus {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 26, ../scss/base/_helpers.scss */
+/* line 26, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 28, ../scss/base/_helpers.scss */
+/* line 28, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .opacity0 {
   opacity: 0;
   display: none;
 }
 
 /* Display */
-/* line 31, ../scss/base/_helpers.scss */
+/* line 31, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .dnone {
   display: none !important;
 }
 
-/* line 32, ../scss/base/_helpers.scss */
+/* line 32, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .dib {
   display: inline-block !important;
 }
 
-/* line 33, ../scss/base/_helpers.scss */
+/* line 33, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .intouchable {
   position: fixed;
   top: -100000px;
@@ -732,318 +732,318 @@ input[type="text"]:focus, textarea:focus {
 /* =Layout
 -------------------------------------------------------------- */
 /* Float */
-/* line 40, ../scss/base/_helpers.scss */
+/* line 40, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .fleft {
   float: left !important;
 }
 
-/* line 41, ../scss/base/_helpers.scss */
+/* line 41, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .fright {
   float: right !important;
 }
 
 /* Clear */
-/* line 44, ../scss/base/_helpers.scss */
+/* line 44, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .cll {
   clear: left !important;
 }
 
-/* line 45, ../scss/base/_helpers.scss */
+/* line 45, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .clr {
   clear: right !important;
 }
 
-/* line 46, ../scss/base/_helpers.scss */
+/* line 46, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .clb {
   clear: both !important;
 }
 
 /* Margin */
-/* line 49, ../scss/base/_helpers.scss */
+/* line 49, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .m0auto {
   margin: 0 auto !important;
 }
 
-/* line 50, ../scss/base/_helpers.scss */
+/* line 50, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mt0 {
   margin-top: 0em !important;
 }
 
-/* line 51, ../scss/base/_helpers.scss */
+/* line 51, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mr0 {
   margin-right: 0em !important;
 }
 
-/* line 52, ../scss/base/_helpers.scss */
+/* line 52, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .ml0 {
   margin-left: 0em !important;
 }
 
-/* line 53, ../scss/base/_helpers.scss */
+/* line 53, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mb0 {
   margin-bottom: 0em !important;
 }
 
-/* line 54, ../scss/base/_helpers.scss */
+/* line 54, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .ma0 {
   margin: 0em !important;
 }
 
-/* line 56, ../scss/base/_helpers.scss */
+/* line 56, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mt05 {
   margin-top: 0.5em !important;
 }
 
-/* line 57, ../scss/base/_helpers.scss */
+/* line 57, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mr05 {
   margin-right: 0.5em !important;
 }
 
-/* line 58, ../scss/base/_helpers.scss */
+/* line 58, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .ml05 {
   margin-left: 0.5em !important;
 }
 
-/* line 59, ../scss/base/_helpers.scss */
+/* line 59, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mb05 {
   margin-bottom: 0.5em !important;
 }
 
-/* line 60, ../scss/base/_helpers.scss */
+/* line 60, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .ma05 {
   margin: 0.5em !important;
 }
 
-/* line 62, ../scss/base/_helpers.scss */
+/* line 62, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mt1 {
   margin-top: 1em !important;
 }
 
-/* line 63, ../scss/base/_helpers.scss */
+/* line 63, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mr1 {
   margin-right: 1em !important;
 }
 
-/* line 64, ../scss/base/_helpers.scss */
+/* line 64, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .ml1 {
   margin-left: 1em !important;
 }
 
-/* line 65, ../scss/base/_helpers.scss */
+/* line 65, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mb1 {
   margin-bottom: 1em !important;
 }
 
-/* line 66, ../scss/base/_helpers.scss */
+/* line 66, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .ma1 {
   margin: 1em !important;
 }
 
-/* line 68, ../scss/base/_helpers.scss */
+/* line 68, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mt2 {
   margin-top: 2em !important;
 }
 
-/* line 69, ../scss/base/_helpers.scss */
+/* line 69, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mr2 {
   margin-right: 2em !important;
 }
 
-/* line 70, ../scss/base/_helpers.scss */
+/* line 70, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .ml2 {
   margin-left: 2em !important;
 }
 
-/* line 71, ../scss/base/_helpers.scss */
+/* line 71, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mb2 {
   margin-bottom: 2em !important;
 }
 
-/* line 72, ../scss/base/_helpers.scss */
+/* line 72, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .ma2 {
   margin: 2em !important;
 }
 
-/* line 74, ../scss/base/_helpers.scss */
+/* line 74, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mt3 {
   margin-top: 3em !important;
 }
 
-/* line 75, ../scss/base/_helpers.scss */
+/* line 75, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mr3 {
   margin-right: 3em !important;
 }
 
-/* line 76, ../scss/base/_helpers.scss */
+/* line 76, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .ml3 {
   margin-left: 3em !important;
 }
 
-/* line 77, ../scss/base/_helpers.scss */
+/* line 77, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .mb3 {
   margin-bottom: 3em !important;
 }
 
-/* line 78, ../scss/base/_helpers.scss */
+/* line 78, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .ma3 {
   margin: 3em !important;
 }
 
 /* Padding */
-/* line 81, ../scss/base/_helpers.scss */
+/* line 81, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pa0 {
   padding: 0 !important;
 }
 
-/* line 82, ../scss/base/_helpers.scss */
+/* line 82, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pt0 {
   padding-top: 0em !important;
 }
 
-/* line 83, ../scss/base/_helpers.scss */
+/* line 83, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pr0 {
   padding-right: 0em !important;
 }
 
-/* line 84, ../scss/base/_helpers.scss */
+/* line 84, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pl0 {
   padding-left: 0em !important;
 }
 
-/* line 85, ../scss/base/_helpers.scss */
+/* line 85, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pb0 {
   padding-bottom: 0em !important;
 }
 
-/* line 87, ../scss/base/_helpers.scss */
+/* line 87, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pa05 {
   padding: 0.5 !important;
 }
 
-/* line 88, ../scss/base/_helpers.scss */
+/* line 88, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pt05 {
   padding-top: 0.5em !important;
 }
 
-/* line 89, ../scss/base/_helpers.scss */
+/* line 89, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pr05 {
   padding-right: 0.5em !important;
 }
 
-/* line 90, ../scss/base/_helpers.scss */
+/* line 90, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pl05 {
   padding-left: 0.5em !important;
 }
 
-/* line 91, ../scss/base/_helpers.scss */
+/* line 91, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pb05 {
   padding-bottom: 0.5em !important;
 }
 
-/* line 93, ../scss/base/_helpers.scss */
+/* line 93, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pt1 {
   padding-top: 1em !important;
 }
 
-/* line 94, ../scss/base/_helpers.scss */
+/* line 94, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pr1 {
   padding-right: 1em !important;
 }
 
-/* line 95, ../scss/base/_helpers.scss */
+/* line 95, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pl1 {
   padding-left: 1em !important;
 }
 
-/* line 96, ../scss/base/_helpers.scss */
+/* line 96, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pb1 {
   padding-bottom: 1em !important;
 }
 
-/* line 97, ../scss/base/_helpers.scss */
+/* line 97, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pa1 {
   padding: 1em !important;
 }
 
-/* line 99, ../scss/base/_helpers.scss */
+/* line 99, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pt2 {
   padding-top: 2em !important;
 }
 
-/* line 100, ../scss/base/_helpers.scss */
+/* line 100, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pr2 {
   padding-right: 2em !important;
 }
 
-/* line 101, ../scss/base/_helpers.scss */
+/* line 101, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pl2 {
   padding-left: 2em !important;
 }
 
-/* line 102, ../scss/base/_helpers.scss */
+/* line 102, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pb2 {
   padding-bottom: 2em !important;
 }
 
-/* line 103, ../scss/base/_helpers.scss */
+/* line 103, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pa2 {
   padding: 2em !important;
 }
 
-/* line 105, ../scss/base/_helpers.scss */
+/* line 105, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .pt3 {
   padding-top: 3em !important;
 }
 
 /* Table display */
-/* line 108, ../scss/base/_helpers.scss */
+/* line 108, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .d-table {
   display: table;
 }
-/* line 110, ../scss/base/_helpers.scss */
+/* line 110, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .d-table > * {
   display: table-row;
 }
-/* line 112, ../scss/base/_helpers.scss */
+/* line 112, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .d-table > * > * {
   display: table-cell;
 }
 
 /* Text-align */
-/* line 119, ../scss/base/_helpers.scss */
+/* line 119, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .text-left {
   text-align: left !important;
 }
 
-/* line 120, ../scss/base/_helpers.scss */
+/* line 120, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .text-center {
   text-align: center !important;
 }
 
-/* line 121, ../scss/base/_helpers.scss */
+/* line 121, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .text-right {
   text-align: right !important;
 }
 
 /* Width */
-/* line 124, ../scss/base/_helpers.scss */
+/* line 124, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .w600 {
   width: 600px !important;
 }
 
-/* line 125, ../scss/base/_helpers.scss */
+/* line 125, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .w550 {
   width: 550px !important;
 }
 
 /* Height */
-/* line 128, ../scss/base/_helpers.scss */
+/* line 128, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .h10 {
   height: 10px !important;
 }
 
 /* Rounded */
-/* line 131, ../scss/base/_helpers.scss */
+/* line 131, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .rounded4 {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1052,17 +1052,17 @@ input[type="text"]:focus, textarea:focus {
 }
 
 /* Border */
-/* line 134, ../scss/base/_helpers.scss */
+/* line 134, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .border0 {
   border: none !important;
 }
 
-/* line 135, ../scss/base/_helpers.scss */
+/* line 135, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .border-gl4 {
   border: solid 4px #eee;
 }
 
-/* line 136, ../scss/base/_helpers.scss */
+/* line 136, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .border-gl8 {
   border: solid 8px #eee;
 }
@@ -1070,38 +1070,38 @@ input[type="text"]:focus, textarea:focus {
 /* =Fonts
 -------------------------------------------------------------- */
 /* Chart Colors */
-/* line 143, ../scss/base/_helpers.scss */
+/* line 143, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .color1 {
   color: #df2e30;
 }
 
-/* line 144, ../scss/base/_helpers.scss */
+/* line 144, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .color2 {
   color: #1894c4;
 }
 
 /* Grey */
-/* line 147, ../scss/base/_helpers.scss */
+/* line 147, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .grey {
   color: #5e5e5e;
 }
 
-/* line 148, ../scss/base/_helpers.scss */
+/* line 148, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .grey-lighten1 {
   color: #787878;
 }
 
-/* line 149, ../scss/base/_helpers.scss */
+/* line 149, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .grey-lighten2 {
   color: #919191;
 }
 
-/* line 150, ../scss/base/_helpers.scss */
+/* line 150, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .grey-lighten3 {
   color: #ababab;
 }
 
-/* line 151, ../scss/base/_helpers.scss */
+/* line 151, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/base/_helpers.scss */
 .grey-lighten4 {
   color: #c4c4c4;
 }
@@ -1111,7 +1111,7 @@ input[type="text"]:focus, textarea:focus {
    Fonts/Titles
    ========================================================================== */
 /* h2 of module */
-/* line 6, ../scss/fonts/_titles.scss */
+/* line 6, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/fonts/_titles.scss */
 .mod-title {
   color: #7b9dac;
   font-size: 5em;
@@ -1120,12 +1120,12 @@ input[type="text"]:focus, textarea:focus {
   overflow: hidden;
   margin: .5em 0;
 }
-/* line 14, ../scss/fonts/_titles.scss */
+/* line 14, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/fonts/_titles.scss */
 .mod-title > span {
   position: relative;
   position: inline-block;
 }
-/* line 18, ../scss/fonts/_titles.scss */
+/* line 18, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/fonts/_titles.scss */
 .mod-title > span:after, .mod-title > span:before {
   content: "";
   position: absolute;
@@ -1134,11 +1134,11 @@ input[type="text"]:focus, textarea:focus {
   height: .7em;
   top: .2em;
 }
-/* line 26, ../scss/fonts/_titles.scss */
+/* line 26, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/fonts/_titles.scss */
 .mod-title > span:after {
   right: -1020px;
 }
-/* line 29, ../scss/fonts/_titles.scss */
+/* line 29, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/fonts/_titles.scss */
 .mod-title > span:before {
   left: -1020px;
 }
@@ -1147,8 +1147,8 @@ input[type="text"]:focus, textarea:focus {
 /* ==|=======================================================================
    Layout/Header
    ========================================================================== */
-/* line 5, ../scss/layout/_header.scss */
-#header {
+/* line 5, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_header.scss */
+.l-header {
   position: fixed;
   top: 0;
   left: 0;
@@ -1161,8 +1161,8 @@ input[type="text"]:focus, textarea:focus {
   -o-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 15, ../scss/layout/_header.scss */
-#header .logo {
+/* line 15, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_header.scss */
+.l-header .logo {
   position: absolute;
   left: 1em;
   top: -0.3em;
@@ -1178,64 +1178,49 @@ input[type="text"]:focus, textarea:focus {
 /* ==|=======================================================================
    Module/Nav
    ========================================================================== */
-/* line 5, ../scss/layout/_nav.scss */
-#primary-nav {
+/* line 5, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_nav.scss */
+.l-primary-nav {
   display: inline-block;
   /* ul */
 }
-/* line 8, ../scss/layout/_nav.scss */
-#primary-nav ul {
+/* line 8, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_nav.scss */
+.l-primary-nav ul {
   padding-left: 0;
   margin: 0;
   display: inline-block;
 }
-/* line 13, ../scss/layout/_nav.scss */
-#primary-nav ul li {
+/* line 13, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_nav.scss */
+.l-primary-nav ul li {
   display: inline-block;
   padding-right: .1em;
 }
-/* line 16, ../scss/layout/_nav.scss */
-#primary-nav ul li a {
+/* line 16, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_nav.scss */
+.l-primary-nav ul li a {
   padding: .7em 1em;
-  transition-property: all;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-out;
-  transition-delay: 0s;
-  /* Firefox 4 */
-  -moz-transition-property: all;
-  -moz-transition-duration: 0.2s;
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-delay: 0s;
-  /* Safari and Chrome */
-  -webkit-transition-property: all;
-  -webkit-transition-duration: 0.2s;
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-delay: 0s;
-  /* Opera */
-  -o-transition-property: all;
-  -o-transition-duration: 0.2s;
-  -o-transition-timing-function: ease-out;
-  -o-transition-delay: 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -o-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
   display: block;
   text-transform: uppercase;
   color: #fff;
 }
-/* line 23, ../scss/layout/_nav.scss */
-#primary-nav ul li a:hover {
+/* line 23, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_nav.scss */
+.l-primary-nav ul li a:hover {
   background: #d32022;
 }
-/* line 27, ../scss/layout/_nav.scss */
-#primary-nav ul li.current-menu-item a {
+/* line 27, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_nav.scss */
+.l-primary-nav ul li.current-menu-item a {
   font-weight: bold;
   color: #fff;
 }
 
-/* #primary-nav */
+/* .primary-nav */
 /* ==|=======================================================================
    Layout/Wrapper
    ========================================================================== */
-/* line 5, ../scss/layout/_wrapper.scss */
-.l-wrapper {
+/* line 5, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_constrained.scss */
+.l-constrained {
   max-width: 1140px;
   padding: 0 20px;
   margin: 0 auto;
@@ -1244,40 +1229,40 @@ input[type="text"]:focus, textarea:focus {
 /* ==|=======================================================================
    Layouts/Cols
    ========================================================================== */
-/* line 7, ../scss/layout/_cols.scss */
+/* line 7, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_cols.scss */
 [class^="l-cols"] .col,
 [class*=" l-cols"] .col {
   float: left;
   margin-right: 2%;
 }
-/* line 11, ../scss/layout/_cols.scss */
+/* line 11, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_cols.scss */
 [class^="l-cols"] .col:last-child,
 [class*=" l-cols"] .col:last-child {
   margin-right: 0 !important;
 }
-/* line 16, ../scss/layout/_cols.scss */
+/* line 16, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_cols.scss */
 [class^="l-cols"].l-cols2 .col,
 [class*=" l-cols"].l-cols2 .col {
   width: 49%;
 }
-/* line 19, ../scss/layout/_cols.scss */
+/* line 19, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_cols.scss */
 [class^="l-cols"].l-cols3 .col,
 [class*=" l-cols"].l-cols3 .col {
   width: 31.6666%;
 }
-/* line 22, ../scss/layout/_cols.scss */
+/* line 22, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_cols.scss */
 [class^="l-cols"].l-cols4 .col,
 [class*=" l-cols"].l-cols4 .col {
   width: 23%;
 }
-/* line 25, ../scss/layout/_cols.scss */
+/* line 25, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_cols.scss */
 [class^="l-cols"].l-cols4 .col.double,
 [class*=" l-cols"].l-cols4 .col.double {
   width: 47%;
 }
 
 @media (max-width: 500px) {
-  /* line 34, ../scss/layout/_cols.scss */
+  /* line 34, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/layout/_cols.scss */
   [class^="l-cols"] .col,
   [class*=" l-cols"] .col {
     float: inherit;
@@ -1289,7 +1274,7 @@ input[type="text"]:focus, textarea:focus {
 /* ==|=======================================================================
    Module/Button
    ========================================================================== */
-/* line 5, ../scss/modules/_btn.scss */
+/* line 5, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_btn.scss */
 .m-btn {
   display: inline-block;
   padding: 0.2em 0.7em;
@@ -1333,7 +1318,7 @@ input[type="text"]:focus, textarea:focus {
   /* Sizes */
   /* Style */
 }
-/* line 26, ../scss/modules/_btn.scss */
+/* line 26, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_btn.scss */
 .m-btn:hover {
   color: #333333;
   text-decoration: none;
@@ -1353,14 +1338,14 @@ input[type="text"]:focus, textarea:focus {
   background: linear-gradient(top, #fefefe 0%, #eeeeee 100%);
   /* W3C */
 }
-/* line 32, ../scss/modules/_btn.scss */
+/* line 32, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_btn.scss */
 .m-btn:active {
   -moz-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.02);
   -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.02);
   -o-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.02);
   box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.02);
 }
-/* line 37, ../scss/modules/_btn.scss */
+/* line 37, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_btn.scss */
 .m-btn.color1 {
   background: #e65a5c;
   /* IE6-9 */
@@ -1380,7 +1365,7 @@ input[type="text"]:focus, textarea:focus {
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 43, ../scss/modules/_btn.scss */
+/* line 43, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_btn.scss */
 .m-btn.color1:hover {
   background: #e45153;
   /* IE6-9 */
@@ -1397,7 +1382,7 @@ input[type="text"]:focus, textarea:focus {
   background: linear-gradient(top, #e45153 0%, #df2e30 100%);
   /* W3C */
 }
-/* line 47, ../scss/modules/_btn.scss */
+/* line 47, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_btn.scss */
 .m-btn.color2 {
   background: #2ab1e5;
   /* IE6-9 */
@@ -1417,7 +1402,7 @@ input[type="text"]:focus, textarea:focus {
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 53, ../scss/modules/_btn.scss */
+/* line 53, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_btn.scss */
 .m-btn.color2:hover {
   background: #21ade4;
   /* IE6-9 */
@@ -1434,16 +1419,16 @@ input[type="text"]:focus, textarea:focus {
   background: linear-gradient(top, #21ade4 0%, #1894c4 100%);
   /* W3C */
 }
-/* line 59, ../scss/modules/_btn.scss */
+/* line 59, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_btn.scss */
 .m-btn.small {
   font-size: .9em;
 }
-/* line 62, ../scss/modules/_btn.scss */
+/* line 62, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_btn.scss */
 .m-btn.big {
   padding: .4em .8em;
   font-size: 1.3em;
 }
-/* line 68, ../scss/modules/_btn.scss */
+/* line 68, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_btn.scss */
 .m-btn.full {
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -1454,87 +1439,87 @@ input[type="text"]:focus, textarea:focus {
 /* ==|=======================================================================
    Module/Slider (compatible with Coda Slider 3.0)
    ========================================================================== */
-/* line 7, ../scss/modules/_slider.scss */
+/* line 7, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-slider {
   width: 100%;
 }
-/* line 10, ../scss/modules/_slider.scss */
+/* line 10, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-slider .panel {
   width: 100%;
 }
-/* line 13, ../scss/modules/_slider.scss */
+/* line 13, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-slider .panel .panel-wrapper {
   text-align: center;
 }
-/* line 21, ../scss/modules/_slider.scss */
+/* line 21, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav .current {
   background: #0090FF;
 }
-/* line 25, ../scss/modules/_slider.scss */
+/* line 25, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav a {
   background: #000;
   color: #fff;
   margin-right: 1px;
   padding: 3px 6px;
 }
-/* line 32, ../scss/modules/_slider.scss */
+/* line 32, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav a:hover {
   background: #000;
   color: #fff;
   text-shadow: none;
 }
-/* line 40, ../scss/modules/_slider.scss */
+/* line 40, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav-left a, .coda-slider-wrapper .coda-nav-right a {
   background: #000;
   color: #fff;
   padding: 5px;
   width: 100px;
 }
-/* line 48, ../scss/modules/_slider.scss */
+/* line 48, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav-left-arrow {
   width: 25px;
   height: 25px;
   background: url(../img/arrow.png) no-repeat top left;
   margin-top: 50px;
 }
-/* line 54, ../scss/modules/_slider.scss */
+/* line 54, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav-left-arrow:hover {
   background: url(../img/arrow.png) no-repeat bottom left;
 }
-/* line 58, ../scss/modules/_slider.scss */
+/* line 58, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav-left-arrow:active {
   margin-top: 55px;
 }
-/* line 61, ../scss/modules/_slider.scss */
+/* line 61, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav-left-arrow a {
   width: 0;
   height: 0;
   background: none;
   margin-top: 0;
 }
-/* line 69, ../scss/modules/_slider.scss */
+/* line 69, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav-right-arrow {
   width: 25px;
   height: 25px;
   background: url(../img/arrow.png) no-repeat top right;
   margin-top: 50px;
 }
-/* line 75, ../scss/modules/_slider.scss */
+/* line 75, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav-right-arrow:hover {
   background: url(../img/arrow.png) no-repeat bottom left;
 }
-/* line 79, ../scss/modules/_slider.scss */
+/* line 79, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav-right-arrow:active {
   margin-top: 55px;
 }
-/* line 84, ../scss/modules/_slider.scss */
+/* line 84, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .loading {
   height: 100%;
   padding: 20px;
   text-align: center;
 }
 
-/* line 91, ../scss/modules/_slider.scss */
+/* line 91, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .arrows .coda-slider {
   margin: 0 10px;
 }
@@ -1544,63 +1529,63 @@ input[type="text"]:focus, textarea:focus {
 * Don't change anything below here unless you know what you're doing 
 *
 ***********************************************************************/
-/* line 102, ../scss/modules/_slider.scss */
+/* line 102, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper {
   clear: both;
   overflow: auto;
 }
-/* line 106, ../scss/modules/_slider.scss */
+/* line 106, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-slider {
   float: left;
   overflow: hidden;
   position: relative;
 }
-/* line 111, ../scss/modules/_slider.scss */
+/* line 111, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-slider .panel-container {
   position: relative;
 }
-/* line 114, ../scss/modules/_slider.scss */
+/* line 114, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-slider .panel-container .panel {
   display: block;
   float: left;
 }
-/* line 123, ../scss/modules/_slider.scss */
+/* line 123, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav ul {
   clear: both;
   display: block;
   margin: auto;
   overflow: hidden;
 }
-/* line 129, ../scss/modules/_slider.scss */
+/* line 129, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav ul li {
   display: inline;
 }
-/* line 132, ../scss/modules/_slider.scss */
+/* line 132, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav ul li a {
   display: block;
   float: left;
   text-decoration: none;
 }
-/* line 141, ../scss/modules/_slider.scss */
+/* line 141, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav-left-arrow, .coda-slider-wrapper .coda-nav-right-arrow {
   cursor: pointer;
   float: left;
 }
-/* line 145, ../scss/modules/_slider.scss */
+/* line 145, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav-left-arrow a, .coda-slider-wrapper .coda-nav-right-arrow a {
   display: block;
 }
-/* line 150, ../scss/modules/_slider.scss */
+/* line 150, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav-left, .coda-slider-wrapper .coda-nav-right {
   float: left;
 }
-/* line 152, ../scss/modules/_slider.scss */
+/* line 152, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav-left a, .coda-slider-wrapper .coda-nav-right a {
   display: block;
   text-align: center;
   text-decoration: none;
 }
-/* line 159, ../scss/modules/_slider.scss */
+/* line 159, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_slider.scss */
 .coda-slider-wrapper .coda-nav-left, .coda-slider-wrapper .coda-nav-left-arrow {
   clear: both;
 }
@@ -1608,7 +1593,7 @@ input[type="text"]:focus, textarea:focus {
 /* ==|=======================================================================
    Module/Icons
    ========================================================================== */
-/* line 5, ../scss/modules/_icons.scss */
+/* line 5, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon {
   display: inline-block;
   /* IE6 Hack */
@@ -1620,156 +1605,156 @@ input[type="text"]:focus, textarea:focus {
   /* Arrows */
   /* Categories pack */
 }
-/* line 9, ../scss/modules/_icons.scss */
+/* line 9, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-address {
   background-position: -127px -65px;
   width: 10px;
   height: 17px;
 }
-/* line 14, ../scss/modules/_icons.scss */
+/* line 14, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-phone {
   background-position: -165px -66px;
   width: 15px;
   height: 16px;
 }
-/* line 19, ../scss/modules/_icons.scss */
+/* line 19, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-opening {
   background-position: -208px -67px;
   width: 15px;
   height: 14px;
 }
-/* line 24, ../scss/modules/_icons.scss */
+/* line 24, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-cross {
   background-position: -203px -28px;
   width: 18px;
   height: 19px;
 }
-/* line 30, ../scss/modules/_icons.scss */
+/* line 30, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-tick {
   background-position: -278px -416px;
   width: 13px;
   height: 14px;
 }
-/* line 37, ../scss/modules/_icons.scss */
+/* line 37, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-social {
   width: 32px;
   height: 32px;
 }
-/* line 41, ../scss/modules/_icons.scss */
+/* line 41, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-social.i-twitter {
   background-position: -21px -57px;
 }
-/* line 44, ../scss/modules/_icons.scss */
+/* line 44, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-social.i-facebook {
   background-position: -62px -56px;
 }
-/* line 47, ../scss/modules/_icons.scss */
+/* line 47, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-social.i-tumblr {
   background-position: -218px -364px;
 }
-/* line 53, ../scss/modules/_icons.scss */
+/* line 53, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round {
   /* Sizes */
 }
-/* line 56, ../scss/modules/_icons.scss */
+/* line 56, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-small {
   width: 61px;
   height: 60px;
 }
-/* line 60, ../scss/modules/_icons.scss */
+/* line 60, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-medium {
   width: 74px;
   height: 74px;
 }
-/* line 64, ../scss/modules/_icons.scss */
+/* line 64, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-big {
   width: 92px;
   height: 92px;
 }
-/* line 69, ../scss/modules/_icons.scss */
+/* line 69, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-support {
   background-position: -242px -8px;
 }
-/* line 72, ../scss/modules/_icons.scss */
+/* line 72, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-fast {
   background-position: -314px -8px;
 }
-/* line 75, ../scss/modules/_icons.scss */
+/* line 75, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-simple {
   background-position: -386px -8px;
 }
-/* line 78, ../scss/modules/_icons.scss */
+/* line 78, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-traffic {
   background-position: -249px -84px;
 }
-/* line 81, ../scss/modules/_icons.scss */
+/* line 81, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-contact {
   background-position: -330px -81px;
 }
-/* line 84, ../scss/modules/_icons.scss */
+/* line 84, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-order {
   background-position: -414px -78px;
 }
-/* line 87, ../scss/modules/_icons.scss */
+/* line 87, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-deals {
   background-position: -247px -163px;
 }
-/* line 90, ../scss/modules/_icons.scss */
+/* line 90, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-fan {
   background-position: -332px -163px;
 }
-/* line 93, ../scss/modules/_icons.scss */
+/* line 93, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-buzz {
   background-position: -12px -251px;
 }
-/* line 96, ../scss/modules/_icons.scss */
+/* line 96, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-seo {
   background-position: -111px -249px;
 }
-/* line 99, ../scss/modules/_icons.scss */
+/* line 99, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-market {
   background-position: -218px -245px;
 }
-/* line 102, ../scss/modules/_icons.scss */
+/* line 102, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-suggestion {
   background-position: -323px -243px;
 }
-/* line 105, ../scss/modules/_icons.scss */
+/* line 105, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-round.i-diffusion {
   background-position: -417px -237px;
 }
-/* line 111, ../scss/modules/_icons.scss */
+/* line 111, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-arrow-bottom {
   background-position: -272px -373px;
   width: 25px;
   height: 18px;
 }
-/* line 118, ../scss/modules/_icons.scss */
+/* line 118, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-category {
   width: 55px;
   height: 55px;
 }
-/* line 122, ../scss/modules/_icons.scss */
+/* line 122, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-category.i-home {
   background-position: -333px -348px;
 }
-/* line 125, ../scss/modules/_icons.scss */
+/* line 125, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-category.i-food {
   background-position: -406px -351px;
 }
-/* line 128, ../scss/modules/_icons.scss */
+/* line 128, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-category.i-beauty {
   background-position: -334px -422px;
 }
-/* line 131, ../scss/modules/_icons.scss */
+/* line 131, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-category.i-fashion {
   background-position: -410px -423px;
 }
-/* line 134, ../scss/modules/_icons.scss */
+/* line 134, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-category.i-hobbies {
   background-position: -490px -349px;
 }
-/* line 137, ../scss/modules/_icons.scss */
+/* line 137, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_icons.scss */
 .m-icon.i-category.i-culture {
   background-position: -490px -421px;
 }
@@ -1780,13 +1765,13 @@ input[type="text"]:focus, textarea:focus {
 /* =fadeInDown
 -------------------------------------------------------------- */
 @-webkit-keyframes fadeInDown {
-  /* line 9, ../scss/modules/_animations.scss */
+  /* line 9, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-20px);
   }
 
-  /* line 14, ../scss/modules/_animations.scss */
+  /* line 14, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -1794,13 +1779,13 @@ input[type="text"]:focus, textarea:focus {
 }
 
 @-moz-keyframes fadeInDown {
-  /* line 21, ../scss/modules/_animations.scss */
+  /* line 21, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   0% {
     opacity: 0;
     -moz-transform: translateY(-20px);
   }
 
-  /* line 26, ../scss/modules/_animations.scss */
+  /* line 26, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   100% {
     opacity: 1;
     -moz-transform: translateY(0);
@@ -1808,13 +1793,13 @@ input[type="text"]:focus, textarea:focus {
 }
 
 @-ms-keyframes fadeInDown {
-  /* line 33, ../scss/modules/_animations.scss */
+  /* line 33, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   0% {
     opacity: 0;
     -ms-transform: translateY(-20px);
   }
 
-  /* line 38, ../scss/modules/_animations.scss */
+  /* line 38, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   100% {
     opacity: 1;
     -ms-transform: translateY(0);
@@ -1822,13 +1807,13 @@ input[type="text"]:focus, textarea:focus {
 }
 
 @-o-keyframes fadeInDown {
-  /* line 45, ../scss/modules/_animations.scss */
+  /* line 45, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   0% {
     opacity: 0;
     -ms-transform: translateY(-20px);
   }
 
-  /* line 50, ../scss/modules/_animations.scss */
+  /* line 50, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   100% {
     opacity: 1;
     -ms-transform: translateY(0);
@@ -1836,13 +1821,13 @@ input[type="text"]:focus, textarea:focus {
 }
 
 @keyframes fadeInDown {
-  /* line 57, ../scss/modules/_animations.scss */
+  /* line 57, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   0% {
     opacity: 0;
     transform: translateY(-20px);
   }
 
-  /* line 62, ../scss/modules/_animations.scss */
+  /* line 62, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -1852,36 +1837,36 @@ input[type="text"]:focus, textarea:focus {
 /* =Rotate
 -------------------------------------------------------------- */
 @-moz-keyframes rotate {
-  /* line 73, ../scss/modules/_animations.scss */
+  /* line 73, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   0% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 74, ../scss/modules/_animations.scss */
+  /* line 74, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   100% {
     -moz-transform: rotate(360deg);
   }
 }
 
 @-webkit-keyframes rotate {
-  /* line 77, ../scss/modules/_animations.scss */
+  /* line 77, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   0% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 78, ../scss/modules/_animations.scss */
+  /* line 78, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   100% {
     -webkit-transform: rotate(360deg);
   }
 }
 
 @keyframes rotate {
-  /* line 81, ../scss/modules/_animations.scss */
+  /* line 81, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   0% {
     transform: rotate(0deg);
   }
 
-  /* line 82, ../scss/modules/_animations.scss */
+  /* line 82, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_animations.scss */
   100% {
     transform: rotate(360deg);
   }
@@ -1890,16 +1875,16 @@ input[type="text"]:focus, textarea:focus {
 /* ==|=======================================================================
    Module/Tagcloud
    ========================================================================== */
-/* line 5, ../scss/modules/_tagcloud.scss */
+/* line 5, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_tagcloud.scss */
 .m-tagcloud {
   padding-left: 0;
 }
-/* line 7, ../scss/modules/_tagcloud.scss */
+/* line 7, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_tagcloud.scss */
 .m-tagcloud li {
   display: inline-block;
   margin: 0 .6em .8em 0;
 }
-/* line 10, ../scss/modules/_tagcloud.scss */
+/* line 10, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_tagcloud.scss */
 .m-tagcloud li a {
   border: 1px solid #ddd;
   display: block;
@@ -1912,31 +1897,16 @@ input[type="text"]:focus, textarea:focus {
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.05);
   -o-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.05);
-  transition-property: all;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-out;
-  transition-delay: 0s;
-  /* Firefox 4 */
-  -moz-transition-property: all;
-  -moz-transition-duration: 0.2s;
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-delay: 0s;
-  /* Safari and Chrome */
-  -webkit-transition-property: all;
-  -webkit-transition-duration: 0.2s;
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-delay: 0s;
-  /* Opera */
-  -o-transition-property: all;
-  -o-transition-duration: 0.2s;
-  -o-transition-timing-function: ease-out;
-  -o-transition-delay: 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -o-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
 }
 
 /* ==|=======================================================================
    Module/Dropdown Menu (based on Bootstrap)
    ========================================================================== */
-/* line 5, ../scss/modules/_dropdown.scss */
+/* line 5, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_dropdown.scss */
 .m-dropdown-menu {
   display: none;
   position: absolute;
@@ -1964,17 +1934,17 @@ input[type="text"]:focus, textarea:focus {
   background-clip: padding-box;
   text-align: left;
 }
-/* line 24, ../scss/modules/_dropdown.scss */
+/* line 24, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_dropdown.scss */
 .m-dropdown-menu.pull-right {
   right: 0;
   left: auto;
 }
-/* line 28, ../scss/modules/_dropdown.scss */
+/* line 28, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_dropdown.scss */
 .m-dropdown-menu.pull-right > .dropdown-menu {
   right: 0;
   left: auto;
 }
-/* line 34, ../scss/modules/_dropdown.scss */
+/* line 34, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_dropdown.scss */
 .m-dropdown-menu .divider {
   height: 1px;
   margin: 9px 1px;
@@ -1982,7 +1952,7 @@ input[type="text"]:focus, textarea:focus {
   background-color: #e5e5e5;
   border-bottom: 1px solid #ffffff;
 }
-/* line 42, ../scss/modules/_dropdown.scss */
+/* line 42, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_dropdown.scss */
 .m-dropdown-menu a {
   display: block;
   padding: .4em 2em;
@@ -1990,7 +1960,7 @@ input[type="text"]:focus, textarea:focus {
   color: #333;
   white-space: nowrap;
 }
-/* line 49, ../scss/modules/_dropdown.scss */
+/* line 49, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/modules/_dropdown.scss */
 .m-dropdown-menu a:hover {
   background-color: #eee;
   text-decoration: none;
@@ -2000,7 +1970,7 @@ input[type="text"]:focus, textarea:focus {
 /* ==|=======================================================================
    Non-Modular/Landing Page
    ========================================================================== */
-/* line 5, ../scss/non-modular/_organisation.scss */
+/* line 5, /Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/RESSOURCES/INTEGRATION/SCSS/SASS + SMACSS/1.0/scss/non-modular/_organisation.scss */
 .n-organisation {
   width: 40em;
   text-align: left;

@@ -62,25 +62,10 @@
 }
 
 @mixin transition($transition: all, $duration: 0.2s, $ease: ease-out, $delay: 0s) {
-  transition-property: $transition;
-  transition-duration: $duration;
-  transition-timing-function: $ease;
-  transition-delay: $delay;
-  /* Firefox 4 */
-  -moz-transition-property: $transition;
-  -moz-transition-duration: $duration;
-  -moz-transition-timing-function: $ease;
-  -moz-transition-delay: $delay;
-  /* Safari and Chrome */
-  -webkit-transition-property: $transition;
-  -webkit-transition-duration: $duration;
-  -webkit-transition-timing-function: $ease;
-  -webkit-transition-delay: $delay;
-  /* Opera */
-  -o-transition-property: $transition;
-  -o-transition-duration: $duration;
-  -o-transition-timing-function: $ease;
-  -o-transition-delay: $delay;
+	-moz-transition: $transition $duration $ease $delay;
+	-webkit-transition: $transition $duration $ease $delay;
+	-o-transition: $transition $duration $ease $delay;
+	transition: $transition $duration $ease $delay;
 }
 
 @mixin transitions-multiple ($transition_a, $transition_b) {
