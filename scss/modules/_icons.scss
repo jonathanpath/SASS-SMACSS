@@ -2,7 +2,7 @@
    Module/Icons
    ========================================================================== */
 
-.m-icon {
+.icon {
 	@include d-inline-block();
 	background-image: $sprite-default;
 	
@@ -31,6 +31,15 @@
 		background-position: -278px -416px;
 		width: 13px;
 		height: 14px;
+	}
+	&.i-close {
+		background-position: -520px -103px;
+		width: 10px;
+		height: 12px;
+		
+		&.i-dark {
+			background-position: -500px -88px;
+		}
 	}
 	
 	/* Social pack */
@@ -113,29 +122,60 @@
 		width: 25px;
 		height: 18px;
 	}
+	&.i-arrow-bottom-small {
+		background-position: -516px -171px;
+		width: 9px;
+		height: 7px;
+	}
 	
 	/* Categories pack */
 	&.i-category {
 		width: 55px;
 		height: 55px;
 		
-		&.i-home {
+		&.i-maison {
 			background-position: -333px -348px;
 		}
-		&.i-food {
+		&.i-fooding {
 			background-position: -406px -351px;
 		}
-		&.i-beauty {
+		&.i-beaute_bien_etre {
 			background-position: -334px -422px;
 		}
-		&.i-fashion {
+		&.i-mode {
 			background-position: -410px -423px;
 		}
-		&.i-hobbies {
+		&.i-sorties {
 			background-position: -490px -349px;
 		}
 		&.i-culture {
 			background-position: -490px -421px;
+		}
+	}
+	
+	/* Type of cat */
+	&.i-type-cat {
+		background-position: -537px -121px;
+		width: 17px;
+		height: 12px;
+	}
+	&.i-type-subcat {
+		background-position: -540px -166px;
+		width: 17px;
+		height: 17px;
+	}
+	&.i-type-tag {
+		background-position: -537px -142px;
+		width: 20px;
+		height: 15px;
+	}
+	
+	/* In buttons */
+	&.i-btn {
+		&.i-facebook {
+			background-position: -229px -423px;
+			width: 19px;
+			height: 42px;;
 		}
 	}
 }

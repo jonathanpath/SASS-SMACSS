@@ -10,7 +10,8 @@ $line-height: 1.5;
 
 /* Colors */
 $color1: #df2e30; /* Red */
-$color2: #1894c4; /* Blue */ 
+$color2: #1894c4; /* Blue */
+$color3: green; /* Green */ 
 $link-color: $color1;
 $grey: #5e5e5e; /* Grey */
 
@@ -18,4 +19,4 @@ $grey: #5e5e5e; /* Grey */
 $wrapper-width: 1140px;
 
 /* Sprite */
-$sprite-default: url(images/sprite.png);
+$sprite-default: url(../img/sprite.png);

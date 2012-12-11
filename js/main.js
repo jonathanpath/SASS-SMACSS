@@ -17,6 +17,14 @@ $(document).ready(function(){
 		event.stopPropagation();
 	});
 	
+	// alert
+	function showAlert(message, time) {
+		$('#header').append('<div class="m-alert">' + message + '</div>');
+		setTimeout(function() {
+	       $('.m-alert').hide()
+	   },5000);
+	}
+	
 	// placeholder for old browsers
 	if (!Modernizr.input.autofocus) {
         $('input').each(function(){
