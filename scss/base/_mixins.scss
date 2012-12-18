@@ -143,6 +143,18 @@
 	user-select: none;
 }
 
+@mixin placeholder($color) {
+	&::-webkit-input-placeholder {
+		color: $color;
+	}
+	&:-moz-placeholder {
+		color: $color;
+	}
+	&:-ms-input-placeholder {
+		color: $color;
+	}
+}
+
 @mixin d-inline-block() {
 	display: inline-block;
 	/* IE6 Hack */
