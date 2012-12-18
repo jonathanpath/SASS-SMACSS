@@ -19,7 +19,7 @@ $(document).ready(function(){
 	
 	// alert
 	function showAlert(message, time) {
-		$('#header').append('<div class="m-alert">' + message + '</div>');
+		$('body').prepend('<div class="m-alert">' + message + '</div>');
 		setTimeout(function() {
 	       $('.m-alert').hide()
 	   },5000);
@@ -61,5 +61,23 @@ $(document).ready(function(){
 				$(this).addClass('nc').val($textbox);
 		});
     }
+    
+    // Global Fade (by @LordSlop)
+    fadePopy();
 	
 });
+
+// Global Fade (by @LordSlop)
+function fadePopy() {
+  
+  // need to put 'display:none;' on the following elements in CSS
+  jQuery("#slider, #wrap-main, #wrap-projet-recent,#wrap-contact-link, #wrap-footer").fadeIn(1000);
+  jQuery("#wrap-header a,#wrap-main a").click(function(event){
+    event.preventDefault();
+    linkLocation = this.href;
+    jQuery("#wrap-main, #services, #wrap-projet-recent, #wrap-contact-link, #wrap-footer, #slider").fadeOut(500, redirectPage);
+   });
+  function redirectPage() {
+    window.location = linkLocation;
+  }
+}
