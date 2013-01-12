@@ -21,15 +21,17 @@
 	-webkit-box-shadow: $a $b $c $color;
 	-o-box-shadow: $a $b $c $color;
 	box-shadow: $a $b $c $color;
+	/* <=8IE Hack */
+	border: solid #eee 1px\9;
 }
 
-@mixin box-shadow-ie($a, $b, $c, $color: #000) {
+@mixin box-shadow-ie($a, $b, $c, $color: #000, $border-ie-color: #eee) {
 	-moz-box-shadow: $a $b $c $color;
 	-webkit-box-shadow: $a $b $c $color;
 	-o-box-shadow: $a $b $c $color;
 	box-shadow: $a $b $c $color;
-	/* IE Hack */
-	*border: solid 1px $color;
+	/* <=8IE Hack */
+	border: solid $border-ie-color 1px\9;
 }
 
 @mixin box-shadow-none() {
