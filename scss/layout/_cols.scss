@@ -18,6 +18,7 @@
 	}
 	&.l-cols3 .col {
 		width: 31.6666%;
+		width: 31%\9; /* <=IE8 Hack */
 	}
 	&.l-cols4 .col {
 		width: 23%;
