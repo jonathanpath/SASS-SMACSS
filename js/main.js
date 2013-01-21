@@ -1,6 +1,38 @@
 $(document).ready(function(){
 	
-	// show dropdown
+	// Show Dropdown on click
+	showDropdown();	
+	
+	// Placeholders for old browsers
+	placeholderOldBrowsers();
+    
+    // Global Fade (by @LordSlop)
+    fadePopy();
+	
+});
+
+
+/**
+ * Global Fade (by @LordSlop)
+ */ 
+function fadePopy() {
+  
+  // need to put 'display:none;' on the following elements in CSS
+  jQuery("#slider, #wrap-main, #wrap-projet-recent,#wrap-contact-link, #wrap-footer").fadeIn(1000);
+  jQuery("#wrap-header a,#wrap-main a").click(function(event){
+    event.preventDefault();
+    linkLocation = this.href;
+    jQuery("#wrap-main, #services, #wrap-projet-recent, #wrap-contact-link, #wrap-footer, #slider").fadeOut(500, redirectPage);
+   });
+  function redirectPage() {
+    window.location = linkLocation;
+  }
+}
+
+/**
+ * Show Dropdown on click
+ */ 
+function showDropdown() {
 	$('.dropdown-toggle').click(function(){
 		var dropdown = $(this).parent().find('.m-dropdown-menu');
 		if( dropdown.css('display') == 'none' )
@@ -16,16 +48,23 @@ $(document).ready(function(){
 	    });
 		event.stopPropagation();
 	});
-	
-	// alert
-	function showAlert(message, time) {
-		$('body').prepend('<div class="m-alert">' + message + '</div>');
-		setTimeout(function() {
-	       $('.m-alert').hide()
-	   },5000);
-	}
-	
-	// placeholder for old browsers
+}
+
+/**
+ * Alert module
+ */ 
+function showAlert(message, time) {
+	$('body').prepend('<div class="m-alert">' + message + '</div>');
+	setTimeout(function() {
+       $('.m-alert').hide()
+   },5000);
+}
+
+
+/**
+ * Placeholders for old browsers
+ */ 
+function placeholderOldBrowsers() {
 	if (!Modernizr.input.autofocus) {
         $('input').each(function(){
 			if ($(this).attr('autofocus'))
@@ -60,24 +99,5 @@ $(document).ready(function(){
 				// mark as uncleared and show initial value
 				$(this).addClass('nc').val($textbox);
 		});
-    }
-    
-    // Global Fade (by @LordSlop)
-    fadePopy();
-	
-});
-
-// Global Fade (by @LordSlop)
-function fadePopy() {
-  
-  // need to put 'display:none;' on the following elements in CSS
-  jQuery("#slider, #wrap-main, #wrap-projet-recent,#wrap-contact-link, #wrap-footer").fadeIn(1000);
-  jQuery("#wrap-header a,#wrap-main a").click(function(event){
-    event.preventDefault();
-    linkLocation = this.href;
-    jQuery("#wrap-main, #services, #wrap-projet-recent, #wrap-contact-link, #wrap-footer, #slider").fadeOut(500, redirectPage);
-   });
-  function redirectPage() {
-    window.location = linkLocation;
-  }
+	}
 }
