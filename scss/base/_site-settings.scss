@@ -9,16 +9,20 @@ $font-size: 1em;
 $line-height: 1.5;
 
 /* Colors */
-$color1: #df2e30; /* Red */
-$color2: #1894c4; /* Blue */
-$color3: green; /* Green */ 
-$link-color: $color1;
+$red: #df2e30;
+$blue: #1894c4;
 $grey: #5e5e5e; /* Grey */
 $facebook: #3b5998;
 $twitter: #43bfe1;
 
+$color1: $red;
+$color2: $blue;
+$color3: green; /* Green */
+ 
+$link-color: $color1;
+
 /* Wrapper */
-$wrapper-width: 1140px;
+$wrapper-width: 71.25em;
 
 /* Sprite */
 $sprite-default: url(../img/sprite.png);
