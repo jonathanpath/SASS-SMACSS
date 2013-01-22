@@ -140,13 +140,13 @@
 -------------------------------------------------------------- */
 
 /* Chart Colors */
-.color1 { color: $color1; }
-.color2 { color: $color2; }
+.f-color1 { color: $color1; }
+.f-color2 { color: $color2; }
 
 /* Grey */
-.grey { color: $grey; }
-.grey-lighten1 { color: lighten($grey, 10%); }
-.grey-lighten2 { color: lighten($grey, 20%); }
-.grey-lighten3 { color: lighten($grey, 30%); }
-.grey-lighten4 { color: lighten($grey, 40%); }
+.f-grey { color: $grey; }
+.f-grey-lighten1 { color: lighten($grey, 10%); }
+.f-grey-lighten2 { color: lighten($grey, 20%); }
+.f-grey-lighten3 { color: lighten($grey, 30%); }
+.f-grey-lighten4 { color: lighten($grey, 40%); }
 
