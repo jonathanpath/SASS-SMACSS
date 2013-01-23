@@ -157,6 +157,12 @@
 	}
 }
 
+@mixin background-rgba($color, $opacity) {
+	background-color: rgba($color, $opacity);
+	/* Hack <=IE8 */
+	background-color: $color \9;
+}
+
 @mixin d-inline-block() {
 	display: inline-block;
 	/* IE6 Hack */
