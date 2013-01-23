@@ -16,17 +16,18 @@ $(document).ready(function(){
  * Global Fade (by @LordSlop)
  */ 
 function fadePopy() {
-  
-  // need to put 'display:none;' on the following elements in CSS
-  jQuery("#slider, #wrap-main, #wrap-projet-recent,#wrap-contact-link, #wrap-footer").fadeIn(1000);
-  jQuery("#wrap-header a,#wrap-main a").click(function(event){
-    event.preventDefault();
-    linkLocation = this.href;
-    jQuery("#wrap-main, #services, #wrap-projet-recent, #wrap-contact-link, #wrap-footer, #slider").fadeOut(500, redirectPage);
-   });
-  function redirectPage() {
-    window.location = linkLocation;
-  }
+	// need to put 'display:none;' on the following elements in CSS
+	var elementsToFade = $(".l-header, .l-footer, .l-grid, .main");
+	
+	elementsToFade.fadeIn(1000);
+	$(".l-header a").click(function(event){
+		event.preventDefault();
+		linkLocation = this.href;
+		elementsToFade.fadeOut(500, redirectPage);
+	});
+	function redirectPage() {
+		window.location = linkLocation;
+	}
 }
 
 /**
