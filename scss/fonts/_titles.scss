@@ -2,8 +2,7 @@
    Fonts/Titles
    ========================================================================== */
 
-/* h2 of module */
-.mod-title {
+.title-stripes {
 	color: #7b9dac;
 	font-size: 5em;
 	text-align: center;
@@ -29,5 +28,30 @@
 		&:before {
 			left: -1020px;
 		}
+	}
+}
+
+.title-border {
+	overflow: hidden;
+	text-align: center;
+	
+	.title {
+		color: #999;
+		position: relative;
+		
+		&:after, &:before {
+			content: "";
+			position: absolute;
+			width: 1000px;
+			top: .5em;
+			border-bottom: 1px solid #e6e6e6;
+		}
+		&:after {
+			right: -865px;
+		}
+		&:before {
+			left: -865px;
+		}
+		
 	}
 }
