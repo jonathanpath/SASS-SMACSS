@@ -9,6 +9,7 @@ body {
 	line-height: $line-height;
 	text-align: center;
 	padding: 3em 0 5em;
+	@include animation(fadeInDown 1s);
 }
 
 a {
