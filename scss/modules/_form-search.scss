@@ -1,0 +1,14 @@
+/* ==|=======================================================================
+   Module/Form search
+   ========================================================================== */
+   
+.m-form-search {
+	input.text {
+		@include border-radius(2px 0 0 2px);
+	}
+	input.m-btn {
+		@include border-radius(0 2px 2px 0);
+		vertical-align: top;
+		padding: .35em .6em;
+	}
+} /* .m-form-search */
