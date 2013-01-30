@@ -135,6 +135,19 @@
 .border-gl4 { border: solid 4px #eee; }
 .border-gl8 { border: solid 8px #eee; }
 
+/* Hr */
+.hr-double, hr.double {
+	border: solid #f5f5f5;
+	border-width: 1px 0;
+}
+
+/* Postion */
+.p-relative { position:relative; }
+.p-absolute { position:absolute; }
+
+/* z-index */
+.z-index10 { z-index: 10; }
+
 
 /* =Fonts
 -------------------------------------------------------------- */
