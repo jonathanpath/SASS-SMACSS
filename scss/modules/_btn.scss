@@ -4,7 +4,7 @@
 
 .m-btn { 
 	display: inline-block;
-	padding: 0.2em 0.7em;
+	padding: .4em 1em;
 	font-size: 1.15em;
 	margin-bottom: 0;
 	color: #333333;
@@ -18,8 +18,8 @@
 	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
 	border-bottom-color: #b3b3b3;
-	@include border-radius(4px);
-	@include box-shadow(0, 1px, 0, rgba(0, 0, 0, .1));
+	@include border-radius(2px);
+	@include box-shadow(0, 2px, 1px, rgba(0, 0, 0, .15));
 	font-weight: 400;
 	
 	/* States */
@@ -35,13 +35,13 @@
 	
 	/* Colors */
 	&.color1 {
-		@include gradient-linear(lighten($color1, 10%), $color1);
+		@include gradient-linear(lighten($color1, 5%), $color1);
 		border-color: $color1;
 		color: #fff;
 		text-shadow: 0 -1px 0 rgba(#000, .2);
 		
 		&:hover {
-			@include gradient-linear(lighten($color1, 8%), $color1);
+			@include gradient-linear($color1, darken($color1, 5%));
 		}
 	}
 	&.color2 {
@@ -60,8 +60,8 @@
 		font-size: .9em;
 	}
 	&.big {	
-		padding: .4em .8em;
-		font-size: 1.3em;
+		padding: .6em 1.3em;
+		font-size: 1.1875em; /* 19/16 */
 	}
 	
 	/* Style */
