@@ -1,3 +1,22 @@
+/**
+ * Global variables
+ * 
+ * @author Jonathan Path
+ */
+
+// size of the document
+var global_W = $('body').width();
+var global_H = $(window).height();
+
+// responsive medium screens
+var medium_W = 780; 
+var medium_H = 600; 
+
+// responsive small screens/mobile
+var small_W = 752; 
+var small_H = 415;
+
+
 $(document).ready(function(){
 	
 	// Show Dropdown on click
