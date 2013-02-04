@@ -30,28 +30,25 @@
 		@include gradient-linear(#fefefe, #eee);
 	}
 	&:active {
-		@include box-shadow-inset(0, 2px, 2px, rgba(0, 0, 0, .02));
+		@include box-shadow-inset(0, 1px, 2px, rgba(0, 0, 0, .2));
 	}
 	
 	/* Colors */
 	&.color1 {
-		@include gradient-linear(lighten($color1, 5%), $color1);
-		border-color: $color1;
-		color: #fff;
-		text-shadow: 0 -1px 0 rgba(#000, .2);
-		
-		&:hover {
-			@include gradient-linear($color1, darken($color1, 5%));
-		}
+		@include btn($color1);
 	}
 	&.color2 {
-		@include gradient-linear(lighten($color2, 10%), $color2);
-		border-color: $color2;
-		color: #fff;
-		text-shadow: 0 -1px 0 rgba(#000, .2);
+		@include btn($color2);
+	}
+	&.white {
+		@include gradient-linear(#fff, #fafafa);
+		border-color: #dbdbdb;
+		color: #878787;
+		text-shadow: none;
 		
 		&:hover {
-			@include gradient-linear(lighten($color2, 8%), $color2);
+			@include gradient-linear(#fcfcfc, #f7f7f7);
+			border-color: #ccc;
 		}
 	}
 	

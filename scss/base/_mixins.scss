@@ -157,6 +157,20 @@
 	}
 }
 
+@mixin btn($color) {
+	@include gradient-linear(lighten($color, 5%), $color);
+	border-color: $color;
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(#000, .2);
+	
+	&:hover {
+		@include gradient-linear(lighten($color, 10%), lighten($color, 5%));
+	}
+	&:active {
+		background: $color !important;
+	}
+}
+
 @mixin clearfix {
     zoom:1;
     &:before, &:after {
