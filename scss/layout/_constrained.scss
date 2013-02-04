@@ -1,9 +1,9 @@
 /* ==|=======================================================================
-   Layout/Wrapper
+   Layout/Constrained
    ========================================================================== */
 
 .l-constrained {
 	max-width: $wrapper-width;
-	padding: 0 20px;
+	padding: 0 1.25em; /* 20/16 */
 	margin: 0 auto;
 }
