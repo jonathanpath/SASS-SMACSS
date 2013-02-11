@@ -38,24 +38,47 @@
 	[class^="l-cols"],
 	[class*=" l-cols"] {
 		&.l-cols4 .col {
-			width: 48%;
-			margin-right: 4%;
+			width: 47.5%;
+			margin-right: 5%;
 			margin-bottom: 1.5em;
 			
 			&.second {
 				margin-right: 0 !important;
 			}
+
 		}
 	}
 }
 
+
 /* ==|=======================================================================
    Responsive/Small Screens
    ========================================================================== */
-@media (max-width: 500px) {
+@media (max-width: 47em) {
 	[class^="l-cols"],
 	[class*=" l-cols"] {
-		.col {
+		&.l-cols2 .col {
+			float: inherit;
+			margin-right: 0;
+			width: 100% !important;
+		}
+		&.l-cols4 .col {
+			/* Full only on small screens */
+			&.small-full {
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+/* ==|=======================================================================
+   Responsive/Very Small Screens
+   ========================================================================== */
+@media (max-width: 15em) {
+	[class^="l-cols"],
+	[class*=" l-cols"] {
+		&.l-cols4 .col {
 			float: inherit;
 			margin-right: 0;
 			width: 100% !important;
