@@ -100,8 +100,8 @@
 
 @mixin gradient-linear-custom($color1, $color2, $dir1, $dir2, $distance) {
 	background: -moz-linear-gradient($dir1, $color1 0%, $color2 $distance); /* FF3.6+ */
-	background: -webkit-gradient(linear, left $dir1, left $dir2, color-stop(0%, $color1), color-stop($distance, $color2)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(dir1, $color1 0%, $color2 $distance); /* Chrome10+,Safari5.1+ */
+	background: -webkit-gradient(linear, $dir1, $dir2, color-stop(0%, $color1), color-stop($distance, $color2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient($dir1, $color1 0%, $color2 $distance); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient($dir1, $color1 0%, $color2 $distance); /* Opera 11.10+ */
 	background: -ms-linear-gradient($dir1, $color1 0%, $color2 $distance); /* IE10+ */
 	background: linear-gradient($dir1, $color1 0%, $color2 $distance); /* W3C */
@@ -122,6 +122,14 @@
 	-o-transform:scale($size);
 	-ms-transform:scale($size);
 	transform:scale($size);
+}
+
+@mixin rotate($deg) {
+	-webkit-transform:rotate($deg);
+	-moz-transform:rotate($deg);
+	-o-transform:rotate($deg);
+	-ms-transform:rotate($deg);
+	transform:rotate($deg);
 }
 
 @mixin box-sizing($type) {

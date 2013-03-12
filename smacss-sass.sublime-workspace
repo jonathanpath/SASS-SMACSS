@@ -1,0 +1,277 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"right"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"back",
+				"background"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/base/_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 6197,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/modules/_table.scss",
+			"settings":
+			{
+				"buffer_size": 981,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/formValidator/ajaxSubmit-newsletter.php",
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/scss/modules/_form-search.scss",
+		"/Users/jonathanpath/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/page.php",
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/scss/layout/_main.scss",
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/page-quotation.php",
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/page-fleet.php",
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/css/style.css",
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/scss/base/_normalize.scss",
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/front-page.php",
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/scss/base/_helpers.scss",
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/sftp-config.json",
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/page-flash.php",
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/page-referral.php",
+		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/scss/layout/_header.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/02-CLIENTS/JANGALA MARKET/DEV/github/jangala/app/assets/stylesheets/module/_infinite-scroll.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/02-CLIENTS/JANGALA MARKET/DEV/github/jangala/app/assets/stylesheets/common.css.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/02-CLIENTS/JANGALA MARKET/DEV/github/jangala/app/assets/javascripts/user-app/templates/boards/show.hamlc",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/02-CLIENTS/JANGALA MARKET/DEV/github/jangala/app/assets/stylesheets/module/_loader.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/CLIENTS/SAME SAME/BOUYGUES/RESSOURCES/Cartedepartement.svg",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/CLIENTS/SAME SAME/BOUYGUES/RESSOURCES/Carteregion.svg",
+		"/Users/jonathanpath/Desktop/mkhl-color-theme-espresso-2cb8324/README.md",
+		"/Users/jonathanpath/Desktop/untitled",
+		"/Users/jonathanpath/Desktop/test.html",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/CLIENTS/SAME SAME/BOUYGUES/RESSOURCES/Régions_de_France.svg"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/02-CLIENTS/JANGALA MARKET/DEV/github/jangala/app",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"b ",
+			"entre 4 & 15% en fonction de votre marge commerciale",
+			"entre 3 & 15% en fonction de votre marge commerciale",
+			".",
+			"entre 4 & 15% en fonction de votre marge commerciale",
+			"Ile_de_france",
+			"path"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/base/_mixins.scss",
+					"settings":
+					{
+						"buffer_size": 6197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3730,
+								3730
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1515.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/modules/_table.scss",
+					"settings":
+					{
+						"buffer_size": 981,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								693,
+								693
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true
+}
