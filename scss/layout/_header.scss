@@ -1,24 +1,6 @@
-/* ==|=======================================================================
+/* ==|====================
    Layout/Header
-   ========================================================================== */
+   ======================= */
 
 .l-header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	border-top: 1px darken($color1, 10%) solid;
-	text-align: center;
-	background: $color1;
-	@include box-shadow(0, 2px, 0, rgba(#000, .1));
-	
-	.logo {
-		position: absolute;
-		left: 1em;
-		top: -.3em;
-		font-size: 1.2em;
-		font-weight: 1000;
-		letter-spacing: -.15em;
-		font-family: 'Arial Black', Arial, sans-serif;
-	}
 }

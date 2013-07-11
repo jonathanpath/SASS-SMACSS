@@ -29,25 +29,6 @@
 			]
 		]
 	},
-	"buffers":
-	[
-		{
-			"file": "scss/base/_mixins.scss",
-			"settings":
-			{
-				"buffer_size": 6197,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/modules/_table.scss",
-			"settings":
-			{
-				"buffer_size": 981,
-				"line_ending": "Unix"
-			}
-		}
-	],
 	"build_system": "",
 	"command_palette":
 	{
@@ -80,6 +61,10 @@
 	},
 	"file_history":
 	[
+		"/Users/jonathanpath/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/base/_site-settings.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/tools/_functions.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/base/_site-settings-load.scss",
 		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/formValidator/ajaxSubmit-newsletter.php",
 		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/scss/modules/_form-search.scss",
 		"/Users/jonathanpath/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
@@ -145,73 +130,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "scss/base/_mixins.scss",
-					"settings":
-					{
-						"buffer_size": 6197,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3730,
-								3730
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1515.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scss/modules/_table.scss",
-					"settings":
-					{
-						"buffer_size": 981,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								693,
-								693
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 0.0
@@ -229,11 +147,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":

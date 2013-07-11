@@ -1,34 +1,6 @@
-/* ==|=======================================================================
-   Module/Nav
-   ========================================================================== */
+/* ==|====================
+   Layout/Nav
+   ======================= */
 
 .l-nav {
-	display: inline-block;
-	
-	ul {
-		padding-left: 0;
-		margin: 0;
-		display: inline-block;				
-	} /* ul */	
-	li {
-		display: inline-block;
-		padding-right: .1em;		
-		
-		&.current-menu-item a {
-			font-weight: bold;
-			color: #fff;
-		}		
-	}
-	a {
-		padding: .7em 1em;
-		@include transition();
-		display: block;
-		text-transform: uppercase;
-		color: #fff;
-		
-		&:hover {
-			background: darken($color1, 5%);
-		}
-	}
-	
-} /* .primary-nav */
+} /* .l-nav */

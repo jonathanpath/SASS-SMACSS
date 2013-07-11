@@ -1,0 +1,67 @@
+/* ==|================
+   Module/left Tabs - Based on jQuery UI
+   =================== */
+
+.left-tabs {
+	.tabs-menu {
+		float: left;
+		width: 9em;
+		padding: 0;
+		margin: .5em 0 0;
+		list-style: none;
+
+		a {
+			display: block;
+			font: 300 1.125em/1.5 $oswald;
+			color: #a1a1a1;
+			border-top: 1px solid #ddd;
+			padding: 7px 1em 6px .2em;
+			margin-left: 1em;
+			padding: 7px 1em 6px .2em;
+			outline: none;
+			@include transition(none);
+
+			&:hover {
+				color: #777;
+			}
+		}
+		li.ui-state-active {
+			a {
+				background: $color2;
+				color: #fff;
+				margin: 0;
+				position: relative;
+				@include gradient-linear(#cb3b4e,#c53546);
+				border: 1px solid #c02c3e;
+				@include border-radius(2px 0 0 2px);
+				position: relative;
+				top: 1px;
+				padding-left: 1.15em;
+				&:after {
+					background: $sprite-default -33px -23px;
+					width: 31px;
+					height: 53px;
+					position: absolute;
+					right: -31px;
+					content: " ";
+					top: -4px;
+
+				}
+			}
+		}
+		li:first-child {
+			a {
+				border-top: none;
+			}
+		}
+
+	}
+	.tabs-content {
+		margin-left: 9em;
+		padding: 2em;
+		background-color: #fff;
+		@include box-shadow-ie(0, 1px, 3px, rgba(#000, .12), #ddd);
+		@include border-radius(2px);
+		border: none;
+	}
+}

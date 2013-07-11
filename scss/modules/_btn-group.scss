@@ -2,17 +2,17 @@
    Module/Button Group
    ========================================================================== */
 
-.m-btn-group {
+.btn-group {
 	margin: 0;
 	padding: 0;
 	position: relative;
 	white-space: nowrap; /* prevent buttons from wrapping when in tight spaces (e.g., the table on the tests page) */
 	@include ie7-restore-left-whitespace();
-	
+
 	li {
 		display: inline-block;
 		a {
-			
+
 			border: 1px solid #ccc;
 			border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 			border-color: #e6e6e6 #e6e6e6 #bfbfbf;

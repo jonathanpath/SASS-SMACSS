@@ -1,23 +1,33 @@
-/* 
- * SMACSS + SCSS starter v1.0
+/*
+ * SMACSS + SCSS starter v2.0
  * Inspired by SMACSS http://smacss.com
  * Author: @jonathanpath
+ * Date: 11 July 2013
  *
  * https://github.com/jonathanpath/SASS-SMACSS
  * See file structure in http://jonathanpath.com/sass+smacss/scss/style.scss
- * 
+ *
+ * Coding rules : https://github.com/necolas/idiomatic-css
+ *
  */
 
+/* Compass */
+@import "compass/css3/images";
+
+/* Tools */
+@import "tools/mixins";
+@import "tools/functions";
+@import "tools/site-settings";
+@import "tools/helpers";
+
 /* Base */
-@import "base/mixins";
 @import "base/normalize";
-@import "base/site-settings";
-@import "base/site-settings-load";
-@import "base/helpers";
+@import "base/base";
 @import "base/form";
 
 /* Fonts */
-@import "fonts/titles";
+@import "fonts/oswald";
+@import "fonts/novecento";
 
 /* Layout */
 @import "layout/header";
@@ -28,12 +38,8 @@
 
 /* Modules */
 @import "modules/btn";
-@import "modules/slider";
 @import "modules/icons";
 @import "modules/animations";
-@import "modules/tagcloud";
 @import "modules/dropdown";
-@import "modules/filter";
 
-/* Non-Modular */
-@import "non-modular/organisation";
+/* No-Modular */

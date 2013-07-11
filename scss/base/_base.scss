@@ -1,0 +1,41 @@
+/* ===========================
+   Base
+   =========================== */
+
+body {
+    font-family: $font1;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5;
+    @include prefixer(animation, fadeInDown 1s, moz webkit spec);
+}
+
+a {
+    color: $color-link;
+    text-decoration: none;
+    @include prefixer(transition, all, moz webkit spec);
+
+    &:hover {
+        color: $color-link-hover;
+    }
+}
+
+::-moz-selection {
+    background: $color1;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: $color1;
+    color: #fff;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}

@@ -1,18 +1,18 @@
-/* ==|=======================================================================
-   Layouts/Cols
-   ========================================================================== */
+/* ==|====================
+   Layout/Cols
+   ======================= */
 
 [class^="l-cols"],
 [class*=" l-cols"] {
 	.col {
 		float: left;
 		margin-right: 2%;
-		
+
 		&:last-child, &.last {
 			margin-right: 0 !important;
 		}
 	}
-	
+
 	&.l-cols2 .col {
 		width: 49%;
 	}
@@ -22,7 +22,7 @@
 	}
 	&.l-cols4 .col {
 		width: 23%;
-		
+
 		&.double {
 			width: 47%;
 		}
@@ -41,7 +41,7 @@
 			width: 47.5%;
 			margin-right: 5%;
 			margin-bottom: 1.5em;
-			
+
 			&.second {
 				margin-right: 0 !important;
 			}
