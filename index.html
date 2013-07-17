@@ -3,166 +3,42 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>SASS + SMACSS Beta // Par Jonathan Path</title>
-        <meta name="description" content="Pour bien commencer vos projets avec SASS">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/vendor/modernizr-2.6.2.custom.min.js"></script>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>SASS + SMACSS Beta // Par Jonathan Path</title>
+    <meta name="description" content="Pour bien commencer vos projets avec SASS">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/vendor/modernizr-2.6.2.custom.min.js"></script>
+</head>
     <body>
-    	<header class="l-header">
-    		<h1 class="logo">SASS + SMACSS</h1>
-    		<nav class="l-nav">
-    		<ul>
-    			<li><a href="#organisation">Organisation</a></li>
-    			<li><a href="#colonnes">Colonnes</a></li>
-    			<li><a href="#boutons">Boutons</a></li>
-    			<li><a href="#tagcloud">Tagcloud</a></li>
-    		</ul>
-    		</nav>
-    	</header>
-    	<div class="l-constrained">
-    		<a name="organisation"></a>
-    		<h2>Organisation</h2>
-    		<section class="n-organisation">
-	    		<h3>Base</h3>
-	    		<ul>
-	    			<li>Mixins <span class="grey-lighten3">/* Fonctions */</span></li>
-	    			<li>Normalize <span class="grey-lighten3">/* Même rendu dans les différents navigateurs */</span></li>
-	    			<li>Site-settings <span class="grey-lighten3">/* Options du site */</span></li>
-	    			<li>Site-settings Load <span class="grey-lighten3">/* Chargements de couleurs et tailles par défaut */</span></li>
-	    			<li>Helpers <span class="grey-lighten3">/* Classes génériques */</span></li>
-	    		</ul>
-	    		
-	    		<h3>Layout</h3>
-	    		<ul>
-	    			<li>Header</li>
-	    			<li>Footer</li>
-	    			<li>Nav</li>
-	    			<li>Wrapper <span class="grey-lighten3">/* Conteneur du site */</span></li>
-	    			<li>Cols <span class="grey-lighten3">/* Colonnes modulables */</span></li>
-	    		</ul>
-	    		
-	    		<h3>Modules</h3>
-	    		<ul>
-	    			<li>Boutons</li>
-	    			<li>Icônes</li>
-	    			<li>Animations</li>
-	    			<li>Tagcloud</li>
-	    			<li>+ des modules par défaut et customisés de Bootstrap</li>
-	    		</ul>
-	    		
-	    		<h3>Non-Modular</h3>
-	    		<ul>
-	    			<li>Organisation <span class="grey-lighten3">/* Tous le css non réutilisable */</span></li>
-	    		</ul>
-	    		
-	    		<a href="https://github.com/jonathanpath/SASS-SMACSS" target="_blank" class="m-btn color1 big full mt1 mb1">Télécharger SASS+SMACSS</a>
-    		</section>
-    	
-    		<a name="colonnes"></a>
-    		<h2>Colonnes</h2>
-	    	<section class="l-cols2 clearfix">
-	    		<h3>2 colonnes</h3>
-		        <p class="col">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-		        <p class="col">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-		    </section>
-		    <section class="l-cols3 clearfix">
-		        <h3>3 colonnes</h3>
-		        <p class="col">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-		        <p class="col">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-		        <p class="col">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-		    </section>
-		    <section class="l-cols4 clearfix">
-		        <h3>4 colonnes</h3>
-		        <p class="col">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-		        <p class="col">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-		        <p class="col">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-		        <p class="col">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-		    </section>
-		    
-		    <a name="boutons"></a>
-		    <h2>Boutons</h2>
-		    <h3>Par défaut</h3>
-		    <a href="#" class="m-btn">Bouton par défaut</a>
-		    <h3>Couleurs</h3>
-		    <a href="#" class="m-btn color1">Bouton 1</a>
-		    <a href="#" class="m-btn color2">Bouton 2</a>
-		    <h3>Tailles</h3>
-		    <a href="#" class="m-btn color1 big">Grand</a>
-		    <a href="#" class="m-btn color1">Moyen</a>
-		    <a href="#" class="m-btn color1 small">Petit</a>
-		    <h3>Qui prend toute la largeur</h3>
-		    <a href="#" class="m-btn color1 full">Bouton qui prend toute la largeur</a>
-		    
-		    <a name="tagcloud"></a>
-		    <h2>Tagcloud</h2>
-		    <ul class="m-tagcloud">
-		    	<li><a href="#">Tag 1</a>
-		    	<li><a href="#">Tag 2</a>
-		    	<li><a href="#">Tag 3</a>
-		    	<li><a href="#">Tag 4</a>
-		    	<li><a href="#">Tag 5</a>
-		    	<li><a href="#">Tag 6</a>
-		    	<li><a href="#">Tag 7</a>
-		    	<li><a href="#">Tag 8</a>
-		    	<li><a href="#">Tag 9</a>
-		    	<li><a href="#">Tag 10</a>
-		    	<li><a href="#">Tag 11</a>
-		    	<li><a href="#">Tag 12</a>
-		    	<li><a href="#">Tag 13</a>
-		    	<li><a href="#">Tag 14</a>
-		    </ul>
-		    
-		    <h2>Filtres</h2>
-		    <a class="m-filter" href="#">
-			    <span class="item">Sport</span>
-			    <span class="close">
-			    	<i class="icon i-close"></i>
-			    </span>
-		    </a>
-		    <a class="m-filter color2" href="#">
-		        <span class="item">Sport</span>
-		        <span class="close">
-		        	<i class="icon i-close"></i>
-		        </span>
-		    </a>
-		    <a class="m-filter color3" href="#">
-		        <span class="item">Sport</span>
-		        <span class="close">
-		        	<i class="icon i-close"></i>
-		        </span>
-		    </a>
-		    
-		    <footer class="l-footer mt2 pt2">
-		      <p>Créé par <a href="http://jonathanpath.com" title="Webdesigner et front-développeur freelance" target="_blank">Jonathan Path</a>.</p>
-		      <a href="https://twitter.com/jonathanpath" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @jonathanpath</a>
-		      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jonathanpath.com/sass+smacss/" data-via="jonathanpath" data-lang="en">Tweet this page</a>
-		      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		    </footer>
-	    </div>
-	    
-	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-	    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
-	    <script src="js/plugins.js"></script>
-	    <script src="js/main.js"></script>
-	    
-	    <script type="text/javascript">
-	    
-	      var _gaq = _gaq || [];
-	      _gaq.push(['_setAccount', 'UA-36578685-1']);
-	      _gaq.push(['_trackPageview']);
-	    
-	      (function() {
-	        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	      })();
-	    
-	    </script>
-    </body>
+    <header class="l-header">
+    </header>
+
+    <section class="l-constrained">
+    </section><!-- .l-constrained -->
+
+    <footer class="l-footer">
+    </footer>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'PUT-YOUR-GA-CODE']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    </script>
+</body>
 </html>
