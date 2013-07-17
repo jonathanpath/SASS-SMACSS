@@ -41,8 +41,14 @@
 // = Opacity
 // -----------------------------
 @mixin opacity($opacity) {
-	filter: unquote("progid:DXImageTransform.Microsoft.Alpha(Opacity=#{round($opacity * 100)})");
-	opacity: $opacity;
+    filter: unquote("progid:DXImageTransform.Microsoft.Alpha(Opacity=#{round($opacity * 100)})");
+    opacity: $opacity;
+
+    /* Hack IE6 */
+    .lt-ie7 & {
+        filter : alpha(opacity=#{round($opacity * 100)});
+        zoom: 1;
+    }
 }
 
 // = Placeholder
@@ -209,4 +215,16 @@ $prefix-for-spec:      true !default;
 	) {
 	$filter : compact($filter-1, $filter-2, $filter-3, $filter-4, $filter-5, $filter-6, $filter-7, $filter-8, $filter-9, $filter-10);
 	@include prefixer(filter, $filter, webkit moz spec);
+}
+
+// = UL list inline
+// -----------------------------
+@mixin ul-list-inline() {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        @include inline-block();
+    }
 }

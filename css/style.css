@@ -650,9 +650,11 @@ body {
 a {
   color: #df2e30;
   text-decoration: none;
-  -moz-transition: all;
-  -webkit-transition: all;
-  transition: all; }
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
   /* line 18, ../scss/base/_base.scss */
   a:hover {
     color: #bd1d1f; }
@@ -696,17 +698,17 @@ textarea {
   -moz-border-radius: 2px;
   border-radius: 2px;
   background-color: #f7f7f7; }
-  /* line 51, ../scss/tools/_mixins.scss */
+  /* line 57, ../scss/tools/_mixins.scss */
   input[type="text"]::-webkit-input-placeholder,
   .form-text
   textarea::-webkit-input-placeholder {
     color: #cdcdcd; }
-  /* line 54, ../scss/tools/_mixins.scss */
+  /* line 60, ../scss/tools/_mixins.scss */
   input[type="text"]:-moz-placeholder,
   .form-text
   textarea:-moz-placeholder {
     color: #cdcdcd; }
-  /* line 57, ../scss/tools/_mixins.scss */
+  /* line 63, ../scss/tools/_mixins.scss */
   input[type="text"]:-ms-input-placeholder,
   .form-text
   textarea:-ms-input-placeholder {

@@ -1,6 +1,6 @@
 /**
  * Global variables
- * 
+ *
  * @author Jonathan Path
  */
 
@@ -9,35 +9,48 @@ var global_W = $('body').width();
 var global_H = $(window).height();
 
 // responsive medium screens
-var medium_W = 780; 
-var medium_H = 600; 
+var medium_W = 780;
+var medium_H = 600;
 
 // responsive small screens/mobile
-var small_W = 752; 
+var small_W = 752;
 var small_H = 415;
 
+// Remove NavBar from iOS
+if( !window.location.hash && window.addEventListener ){
+    window.addEventListener( "load",function() {
+        setTimeout(function(){
+            window.scrollTo(0, 0);
+        }, 0);
+    });
+    window.addEventListener( "orientationchange",function() {
+        setTimeout(function(){
+            window.scrollTo(0, 0);
+        }, 0);
+    });
+}
 
 $(document).ready(function(){
-	
+
 	// Show Dropdown on click
-	showDropdown();	
-	
+	showDropdown();
+
 	// Placeholders for old browsers
 	placeholderOldBrowsers();
-    
+
     // Global Fade (by @LordSlop)
     fadePopy();
-	
+
 });
 
 
 /**
  * Global Fade (by @LordSlop)
- */ 
+ */
 function fadePopy() {
 	// need to put 'display:none;' on the following elements in CSS
 	var elementsToFade = $(".l-header, .l-footer, .l-grid, .main");
-	
+
 	elementsToFade.fadeIn(1000);
 	$(".l-header a").click(function(event){
 		event.preventDefault();
@@ -51,15 +64,15 @@ function fadePopy() {
 
 /**
  * Show Dropdown on click
- */ 
+ */
 function showDropdown() {
 	$('.dropdown-toggle').click(function(){
 		var dropdown = $(this).parent().find('.m-dropdown-menu');
 		if( dropdown.css('display') == 'none' )
 			dropdown.show();
-		else 
+		else
 			dropdown.hide();
-		
+
 		// clicks out the dropdown
 	    $('body').click(function(event){
 	    	if(!$(event.target).is('.m-dropdown-menu a')) {
@@ -72,7 +85,7 @@ function showDropdown() {
 
 /**
  * Alert module
- */ 
+ */
 function showAlert(message, time) {
 	$('body').prepend('<div class="m-alert">' + message + '</div>');
 	setTimeout(function() {
@@ -83,7 +96,7 @@ function showAlert(message, time) {
 
 /**
  * Placeholders for old browsers
- */ 
+ */
 function placeholderOldBrowsers() {
 	if (!Modernizr.input.autofocus) {
         $('input').each(function(){
@@ -98,7 +111,7 @@ function placeholderOldBrowsers() {
 				$(this).attr('value', placeholder_text).addClass('nc');
 			}
 		});
-		
+
 		// for all fields with uncleared initial value, on focus
 		$('.nc').focus(function() {
 

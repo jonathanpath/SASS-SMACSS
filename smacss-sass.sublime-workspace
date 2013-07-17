@@ -61,9 +61,41 @@
 	},
 	"file_history":
 	[
-		"/Users/jonathanpath/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/base/_site-settings.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/tools/_mixins.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_table.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_left-tabs.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_form-search.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_formatted.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_fontello.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/layout/_main.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/style.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/fonts/_oswald.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/layout/_row.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_popyfade.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_loader.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_animations.scss",
 		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/tools/_functions.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/base/_normalize.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_dropdown.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/fonts/_novecento.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/base/_base.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/non-modular/_home.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/base/_form.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/layout/_cols.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_btn.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_text.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_filter.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_steps.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_icons.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_video.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/modules/_btn-group.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/layout/_constrained.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/layout/_nav.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/layout/_header.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/layout/_footer.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/tools/_helpers.scss",
+		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/base/_site-settings.scss",
+		"/Users/jonathanpath/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Volumes/Macintosh HD/Users/jonathanpath/Dropbox/PRO/06-RESSOURCES/INTEGRATION/SASS/SASS + SMACSS/SASS + SMACSS 1.0/scss/base/_site-settings-load.scss",
 		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/formValidator/ajaxSubmit-newsletter.php",
 		"/Applications/MAMP/bin/mamp/Mk-Partnair/wp-content/themes/mkpartnair/scss/modules/_form-search.scss",
@@ -109,6 +141,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" ==========================================================================",
+			"selection",
+			"prefix",
 			"b ",
 			"entre 4 & 15% en fonction de votre marge commerciale",
 			"entre 3 & 15% en fonction de votre marge commerciale",
@@ -123,6 +158,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"======================="
 		],
 		"reverse": false,
 		"show_context": true,
@@ -174,7 +210,7 @@
 	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
