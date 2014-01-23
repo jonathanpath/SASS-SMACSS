@@ -7,7 +7,6 @@ body {
     font-weight: 300;
     font-size: 1em;
     line-height: 1.5;
-    @include prefixer(animation, fadeInDown 1s, moz webkit spec);
 }
 
 a {
