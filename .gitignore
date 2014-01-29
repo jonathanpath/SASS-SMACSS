@@ -1,4 +1,5 @@
 *.espressostorage
+.DS_Store
 
 SCSS-SMACSS - Modèle jPath.esproj/user.jonathanpath.espressostorage
 
