@@ -6,4 +6,5 @@ To start your project with Sass & Compass. Inspired by SMACSS from Jonathan Snoo
 Team
 ==
 Jonathan Path @jonathanpath
+
 Laurent Sutterlity @sutterlity
