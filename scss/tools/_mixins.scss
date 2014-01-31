@@ -217,7 +217,7 @@ $prefix-for-spec:      true !default;
 	@include prefixer(filter, $filter, webkit moz spec);
 }
 
-// = UL list inline
+// = UL
 // -----------------------------
 @mixin ul-list-inline() {
     list-style: none;
@@ -227,6 +227,12 @@ $prefix-for-spec:      true !default;
     li {
         @include inline-block();
     }
+}
+
+@mixin reset-ul() {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 

@@ -1,5 +1,7 @@
 /* ==|====================
    Module/Icons
+   Method by @vtcreative
+   Documentation : http://goo.gl/kWyRmT
    ======================= */
 
 @import "compass/utilities/sprites";
@@ -34,29 +36,5 @@ $sprites2x: sprite-map("icons-2x/*.png");
 }
 
 .icon-facebook {
-  @include sprite-background(facebook);
+  //@include sprite-background(facebook);
 }
-.icon-twitter {
-  @include sprite-background(twitter);
-}
-.icon-rss {
-  @include sprite-background(rss);
-}
-.icon-flag {
-  @include sprite-background(flag);
-}
-.icon-newsletter {
-  @include sprite-background(newsletter);
-}
-.icon-video {
-  @include sprite-background(video);
-}
-.icon-audio {
-  @include sprite-background(audio);
-}
-.icon-search {
-  @include sprite-background(search);
-}
-
-
-

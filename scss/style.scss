@@ -6,6 +6,7 @@
  *
  * https://github.com/jonathanpath/SASS-SMACSS
  * See file structure in http://jonathanpath.com/sass+smacss/scss/style.scss
+ * Sass Structure inspired by : https://github.com/sutter/POPY-starter-HTML-SCSS
  *
  * Coding rules : https://github.com/necolas/idiomatic-css
  *
@@ -26,8 +27,7 @@
 @import "base/form";
 
 /* Fonts */
-@import "fonts/oswald";
-@import "fonts/novecento";
+//@import "fonts/...";
 
 /* Layout */
 @import "layout/header";
@@ -39,6 +39,6 @@
 /* Modules */
 @import "modules/btn";
 @import "modules/icons";
-@import "modules/animations";
+//@import "modules/animations";
 
 /* No-Modular */
