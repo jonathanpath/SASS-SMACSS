@@ -49,9 +49,17 @@ $clr-btn-hover: darken($clr-btn, 10%);
 $wrapper-width: pxtoem(1140, 16);
 
 // = Prefix
+// -----------------------------
 
 $prefix-for-webkit:    true !default;
 $prefix-for-mozilla:   true !default;
 $prefix-for-microsoft: true !default;
 $prefix-for-opera:     true !default;
 $prefix-for-spec:      true !default; // required for keyframe mixin
+
+// = Responsive
+// -----------------------------
+
+$width-desktop: 75em; // 1200/16
+$width-tablet: 62em; // 992/16
+$width-mobile: 48em; // 768/16
