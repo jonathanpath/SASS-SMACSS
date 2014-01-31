@@ -14,4 +14,8 @@ Team
 ==
 Jonathan Path @jonathanpath
 
+<<<<<<< HEAD
 Laurent Sutterlity @sutterlity
+=======
+Laurent Sutterlity @sutterlity
+>>>>>>> cc3eb99082c2118a534f5c5ba4c69cacf470724c
