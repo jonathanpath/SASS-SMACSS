@@ -287,3 +287,12 @@ $prefix-for-spec:      true !default;
     $prefix-for-opera:     $original-prefix-for-opera    ;
     $prefix-for-spec:      $original-prefix-for-spec     ;
 }
+
+// = Calc
+// -----------------------------
+@mixin calc($property, $expression) {
+  #{$property}: -moz-calc(#{$expression});
+  #{$property}: -o-calc(#{$expression});
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
