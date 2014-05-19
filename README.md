@@ -13,6 +13,6 @@ Based on
 
 Team
 ==
-Jonathan Path @jonathanpath
+Jonathan Path @jonathanpath / http://jonathanpath.com
 
-Laurent Sutterlity @sutterlity
+Laurent Sutterlity @sutterlity / http://sutterlity.fr
