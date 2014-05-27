@@ -60,6 +60,6 @@ $prefix-for-spec:      true !default; // required for keyframe mixin
 // = Responsive
 // -----------------------------
 
-$width-desktop: 75em; // 1200/16
-$width-tablet: 62em; // 992/16
-$width-mobile: 48em; // 768/16
+$width-large: 75em; // 1200/16
+$width-medium: 62em; // 992/16
+$width-small: 48em; // 768/16
