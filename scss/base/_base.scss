@@ -12,29 +12,8 @@ body {
 a {
     color: $color-link;
     text-decoration: none;
-    @include transition();
 
     &:hover {
         color: $color-link-hover;
     }
-}
-
-::-moz-selection {
-    background: $color1;
-    color: #fff;
-    text-shadow: none;
-}
-::selection {
-    background: $color1;
-    color: #fff;
-    text-shadow: none;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
 }

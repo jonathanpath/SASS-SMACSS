@@ -100,13 +100,6 @@
 }
 
 
-/* =Layout
-------------------- */
-
-.ul-list-inline {
-    @include ul-list-inline();
-}
-
 /* =Fonts
 ------------------- */
 
@@ -116,29 +109,4 @@
 }
 .f-color2 {
     color: $color2;
-}
-
-
-/* =Wordpress alignment
--------------------*/
-
-.alignleft {
-    display: inline;
-    float: left;
-}
-.alignright {
-    display: inline;
-    float: right;
-}
-.aligncenter {
-    clear: both;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.txtleft{
-  text-align:left;
-}
-.txtright{
-  text-align:right;
 }

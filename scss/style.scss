@@ -12,30 +12,17 @@
  *
  */
 
-/* Compass */
-@import "compass/css3/images";
-
 /* Tools */
-@import "tools/functions";
 @import "tools/site-settings";
-@import "tools/mixins";
 @import "tools/helpers";
 
 /* Base */
-@import "base/normalize";
 @import "base/base";
-@import "base/form";
 
 /* Fonts */
 //@import "fonts/...";
 
 /* Layout */
-@import "layout/header";
-@import "layout/nav";
-@import "layout/footer";
 @import "layout/constrained";
 
 /* Modules */
-@import "modules/btn";
-@import "modules/icons";
-//@import "modules/animations";
