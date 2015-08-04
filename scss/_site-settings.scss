@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+// ----------------------
+// == Site settings
+// ----------------------
+
+// Fonts
+$font1: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font2: Georgia, serif;
+
+// = Colors
+// -----------------------------
+
+// Graphic chart
+$red: #df2e30;
+$blue: #1894c4;
+$facebook: #3b5998;
+$twitter: #43bfe1;
+
+$color1: $red;
+$color2: $blue;
+
+
+// = Grid
+// -----------------------------
+
+// Max width wrapper
+$wrapper-width: pxtoem(1140, 16);
