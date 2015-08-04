@@ -1,14 +1,13 @@
 Sass + SMACSS
 ==============
 
-To start your project with Sass. Inspired by SMACSS from Jonathan Snook. To know more, go to : http://smacss.com
+To organize your Sass project with SMACSS organisation. Inspired by SMACSS from Jonathan Snook. To know more, go to : http://smacss.com
+
+You can use it with any framework like Bootstrap or Foundation (to put in scss/vendor)
 
 Based on
 ==
  - Idiomatic css
- - Boilerplate
- - Normalize.css
- - Compass
  - POPY-starter-HTML-SCSS
 
 Team

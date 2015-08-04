@@ -1,28 +1,24 @@
 /*
- * SMACSS + SCSS starter v2.0
+ * SMACSS + SCSS starter v2.1
  * Inspired by SMACSS http://smacss.com
  * Author: @jonathanpath
- * Date: 11 July 2013
+ * Date: 4 August 2015
  *
  * https://github.com/jonathanpath/SASS-SMACSS
  * See file structure in http://jonathanpath.com/sass+smacss/scss/style.scss
- * Sass Structure inspired by : https://github.com/sutter/POPY-starter-HTML-SCSS
  *
  * Coding rules : https://github.com/necolas/idiomatic-css
  *
  */
 
-/* Tools */
-@import "tools/site-settings";
-@import "tools/helpers";
+/* Site settings */
+@import "site-settings";
 
 /* Base */
-@import "base/base";
-
-/* Fonts */
-//@import "fonts/...";
+@import "base";
 
 /* Layout */
 @import "layout/constrained";
 
 /* Modules */
+@import "module/btn";

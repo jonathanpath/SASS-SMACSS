@@ -1,15 +1,6 @@
-*.espressostorage
 .DS_Store
-
-SCSS-SMACSS - Modèle jPath.esproj/user.jonathanpath.espressostorage
-
-user.jonathanpath.espressostorage
-smacss-sass.sublime-workspace
-smacss-sass.sublime-project
+*.sublime-workspace
+*.sublime-project
 .scssc
 .sass-cache/
 *.css
-
-img/icons-2x-s2ac01ba003.png
-
-img/icons-s70a6cb49e0.png
